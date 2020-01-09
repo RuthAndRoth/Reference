@@ -1,16 +1,13 @@
-Second Life Avatar Content Creation Aids
+# Second Life Avatar Content Creation Aids
+
 January, 2005
 
-==========================================
 These are intended for use by Second Life content creators.  They can be used within other 3D applications as mannequins to aid in the creation of character animation and body textures for upload into Second Life.  Included here are two Poser specific characters plus .obj and .bvh files that can be used to create similar mannequins in other 3D apps.
-==========================================
 
-==========================================
 See LICENSE.txt in this folder for the terms under which these files
 are made available by Linden Research, Inc.
-==========================================
 
-==========================================
+----------
 The Folder "SL Avatar" contains two custom Poser 4/5 figures, "SL_Female" and "SL_Male."  These characters match the base Second Life female and male meshes (prior to any morphs applied).  They also contain matching texture UVs and bone/joint orientations.  Using these custom figures rather than the standard figures supplied with Poser should result in more accurate animations uploaded into Second Life. The proportions of these figures can be further modified within Poser to create accurate animations for specific SL characters.
 
 The mesh on each of the Poser models is divided into 3 material groups matching the SL avatar head, upperbody, and lowerbody textures.  These groups allow clothing, skin, and tattoo textures to be previewed on the character within Poser as opposed to requiring logging in to Second Life.
@@ -28,11 +25,10 @@ NOTE TO POSER 4 USERS: The icon in the library will appear as a generic figure s
 
 5.  If you want to make this character your default startup Poser character open the 'Edit/General Prefs.' menu, set the Document Preference to 'Launch to Preferred State', and press the 'Set Preferred State' button.  Now each time you launch Poser it will load the SL mannequin automatically as its default figure.
 
-==========================================
+----------
 The Folder "SL Clothing" contains one Poser pp2 prop file representing the skirt.  You can copy this folder to your Poser Props directory.  This file is useful as a texture mannequin.
-==========================================
 
-==========================================
+----------
 The other  files included  may prove useful toward the creation of SL compatible animation characters in 3D applications such as Maya, 3DSMax, Animation Master, and Blender.  Animations created on these characters can then be uploaded into Second Life as long as the 3D app. can be configured to output standard BVH text files.
 
 Additionally, the obj model files can be imported into programs such as Deep Paint and Zbrush to paint clothing, skin, and tattoo textures directly on the 3D mesh, or to simply preview textures on a Second Life compatible mannequin without requiring logging in to Second Life.
@@ -42,9 +38,8 @@ Additionally, the obj model files can be imported into programs such as Deep Pai
 "SL_skirtmesh_OBJ.obj" is 3D mesh representing the SL skirt object.
 
 "SL_Avatar_Tpose.bvh" is a single frame base skeletal animation pose with all joint rotations zeroed out. It can be used as reference to reconstruct the SL skeleton in other 3D applications.  Remember that the hierarchy, joint names, and joint rotation order must match those specified in this file in order for any resulting animation to import correctly into Second Life.
-==========================================
 
+----------
 Happy content creation!
 
--Xenon Linden
-Art Monkey
+-Xenon Linden, Art Monkey

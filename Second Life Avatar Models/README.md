@@ -15,6 +15,7 @@ License: CC-BY-3.0
 SecondLifeAvatarSkeleton.zip -> Second Life Avatar Skeleton
 
 http://wiki.secondlife.com/wiki/Mesh/Rigging_Fitted_Mesh
+
 http://lecs-opensource.secondlife.com/fittedmesh/SecondLifeAvatarSkeleton.zip
 
 CC-BY-3.0

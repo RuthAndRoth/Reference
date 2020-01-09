@@ -10,9 +10,9 @@ Please do not use it without permission.  To get permission, write to
 "chat at robinwood.com", and explain what you intend to use it for.
 
 
-## Usage for Ruth/Roth 2.0
+## Usage for Ruth2/Roth2
 
-Permission to post Robin Wood's Avatar UV Templates in Ruth/Roth and to post on the
+Permission to post Robin Wood's Avatar UV Templates in RuthAndRoth and to post on the
 GitHub repository was provided by Robin Wood on 5-Apr-2019.
 
 > Outworldz (Fred Beckhusen) on 1-Apr-2019:  
