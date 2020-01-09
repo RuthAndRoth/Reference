@@ -2,7 +2,7 @@
 
 This repository is an archive of a number of useful reference files
 for avatar-related creations.  They come from various sources including
-Linden Labs and individual creators.
+Linden Lab and individual creators.
 
 * CCC Cybernetics Avatar Databank: http://www.ccccybernetics.com/avatar_databank/
 
