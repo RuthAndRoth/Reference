@@ -1,4 +1,4 @@
-=Second Life Avatar Databank=
+# Second Life Avatar Databank
 
 Complete morph target UV mesh library and models in AC3D and OBJ formats with PNG format 1024x1024 texture templates.
 
