@@ -8,7 +8,7 @@ Welcome to the Avatar Databank
 
 If you want to make really perfect clothes, you need the right UVs. Until now those haven't been available.
 
-Linden Labs provides meshes (in OBJ format), but those meshes only provide the female UV coordinates. This can cause unexpected results if you try to bake textures to the male avatar mesh.
+Linden Lab provides meshes (in OBJ format), but those meshes only provide the female UV coordinates. This can cause unexpected results if you try to bake textures to the male avatar mesh.
 
 To solve this problem we extracted the actual meshes from the Second Life® client so it would be possible to paint clothing with the correct UV coordinates. We have provided these meshes on this site as AC3D and OBJ format data files. We have also provided just the texture templates in PNG format for those of you who don't work with 3D applications. You can download all of these files from the pages linked to from the navigation bar at the top of this site.
 
@@ -23,4 +23,4 @@ These are extremely helpful for making clothing especially if you are targeting 
 
 If you have any questions about this site IM Zee Pixel within Second Life and we'll get back with you asap.
 
-The avatar datasets on this page are Copyright ©Linden Labs. This site is not affilated with or endorsed by Linden Labs in any way.
+The avatar datasets on this page are Copyright ©Linden Lab. This site is not affilated with or endorsed by Linden Lab in any way.
