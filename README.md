@@ -18,3 +18,7 @@ Many of these are referenced in the
   * Second Life avatar meshes: http://static-secondlife-com.s3.amazonaws.com/downloads/avatar/avatar_mesh.zip
   * Rigging Fitted Mesh skeletons: http://wiki.secondlife.com/wiki/Mesh/Rigging_Fitted_Mesh
   * Improved Second Life avatar meshes: http://web.archive.org/web/20120711023730/http://abbloch.com/slAvatars_OBJ_Fixed/
+  
+# Licenses
+  
+All of the files included here are licensed CC-BY-3.0 unless othewise stated. The individual directories contain any license files included with the original files that may override this declaration.
