@@ -1,0 +1,14 @@
+http://wiki.secondlife.com/wiki/Mesh/Rigging_Fitted_Mesh
+
+Download links
+
+Second Life Skeletons
+
+(Last updated April 15, 2014) Includes the male and female models in the following formats:
+
+.ma
+.fbx
+.blend
+.dae
+
+Note that the .blend files require a Blender version >=2.70)
