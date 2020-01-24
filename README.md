@@ -7,13 +7,15 @@ Linden Lab and individual creators.
 Many of these are referenced in the
 [Second Life Wiki](http://wiki.secondlife.com/wiki/Clothing_Tutorials)
 
-* CCC Cybernetics Avatar Databank: http://www.ccccybernetics.com/avatar_databank/
+* Armatures: work by Ada Radius avatar model armatures and bones
+
+* Avatar Databank: from CCC Cybernetics http://www.ccccybernetics.com/avatar_databank/
 
 * CMFF Templates: http://static-secondlife-com.s3.amazonaws.com/templates/CMFF_Template_Set.zip
 
 * Robin Wood Templates: https://www.robinwood.com/Catalog/Technical/SL-Tuts/SLPages/AVUVTemplates.html
 
-* Second Life Avatar Models
+* Linden Lab Avatar Models
 
   * Second Life avatar meshes: http://static-secondlife-com.s3.amazonaws.com/downloads/avatar/avatar_mesh.zip
   * Rigging Fitted Mesh skeletons: http://wiki.secondlife.com/wiki/Mesh/Rigging_Fitted_Mesh
