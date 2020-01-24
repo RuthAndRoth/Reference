@@ -1,4 +1,4 @@
-# Second Life Avatar Models
+# Linden Lab Avatar Models
 
 These files are archives from links in the [Second Life Wiki](http://wiki.secondlife.com/wiki/Clothing_Tutorials#Second_Life_avatar_models)
 
