@@ -2,7 +2,7 @@
 
 These files are archives from links in the [Second Life Wiki](http://wiki.secondlife.com/wiki/Clothing_Tutorials#Second_Life_avatar_models)
 
-## Second Life avatar meshes
+## Second Life Avatar Meshes
 
 avatar_mesh.zip -> avatar_mesh
 
@@ -20,7 +20,7 @@ http://lecs-opensource.secondlife.com/fittedmesh/SecondLifeAvatarSkeleton.zip
 
 CC-BY-3.0
 
-## Improved Second Life avatar meshes
+## Improved Second Life Avatar Meshes
 
 Chosen Few meshes, downloaded from Internet Archive
 
@@ -30,7 +30,11 @@ slAvatars_OBJ_Fixed
 
 ## Bento Updates
 
+http://wiki.secondlife.com/wiki/Project_Bento_Testing
+
 SecondLife2016FBXBento.zip -> SecondLife2016FBXBento
+
+Licensed under Creative Commons Attribution-Share Alike 3.0 unless otherwise noted.
 
 # Downloads
 
