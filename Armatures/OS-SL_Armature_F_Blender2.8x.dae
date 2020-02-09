@@ -1,0 +1,1648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.81.16 commit date:2019-12-04, commit time:11:32, hash:f1aa4d18d49d</authoring_tool>
+    </contributor>
+    <created>2020-02-08T09:51:11</created>
+    <modified>2020-02-08T09:51:11</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects/>
+  <library_images/>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature_for_opensim_-_female" name="Armature for opensim - female" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_for_opensim_-_female_mPelvis" name="mPelvis" sid="mPelvis" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 1.06702 0 0 0 1</matrix>
+          <node id="Armature_for_opensim_-_female_PELVIS" name="PELVIS" sid="PELVIS" type="JOINT">
+            <matrix sid="transform">1 0 0 -0.008333333 0 0.9999999 0 0 0 0 0.9999999 -0.02000511 0 0 0 1</matrix>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">15 16</layer>
+                <tip_x sid="tip_x" type="float">0.04233324</tip_x>
+                <tip_y sid="tip_y" type="float">0</tip_y>
+                <tip_z sid="tip_z" type="float">0.08990025</tip_z>
+              </technique>
+            </extra>
+          </node>
+          <node id="Armature_for_opensim_-_female_BUTT" name="BUTT" sid="BUTT" type="JOINT">
+            <matrix sid="transform">1 0 0 -0.055 0 1 0 0 0 0 1 -0.1000051 0 0 0 1</matrix>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">15 16</layer>
+                <tip_x sid="tip_x" type="float">-0.1</tip_x>
+                <tip_y sid="tip_y" type="float">0</tip_y>
+                <tip_z sid="tip_z" type="float">0</tip_z>
+              </technique>
+            </extra>
+          </node>
+          <node id="Armature_for_opensim_-_female_mSpine1" name="mSpine1" sid="mSpine1" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 -3.09944e-6 0 0 0 1</matrix>
+            <node id="Armature_for_opensim_-_female_mSpine2" name="mSpine2" sid="mSpine2" type="JOINT">
+              <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 -6.91414e-6 0 0 0 1</matrix>
+              <node id="Armature_for_opensim_-_female_mTorso" name="mTorso" sid="mTorso" type="JOINT">
+                <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0.08406997 0 0 0 1</matrix>
+                <node id="Armature_for_opensim_-_female_BELLY" name="BELLY" sid="BELLY" type="JOINT">
+                  <matrix sid="transform">1 -9.28714e-10 0 0.02799999 0 1 -1.49012e-8 0 0 6.96626e-11 0.9999999 0.04000773 0 0 0 1</matrix>
+                  <extra>
+                    <technique profile="blender">
+                      <layer sid="layer" type="string">15 16</layer>
+                      <tip_x sid="tip_x" type="float">0.04080975</tip_x>
+                      <tip_y sid="tip_y" type="float">0</tip_y>
+                      <tip_z sid="tip_z" type="float">0.08918833</tip_z>
+                    </technique>
+                  </extra>
+                </node>
+                <node id="Armature_for_opensim_-_female_LEFT_HANDLE" name="LEFT_HANDLE" sid="LEFT_HANDLE" type="JOINT">
+                  <matrix sid="transform">1 0 0 -7.45058e-9 0 1 0 0.1 0 0 1 0.05800774 0 0 0 1</matrix>
+                  <extra>
+                    <technique profile="blender">
+                      <layer sid="layer" type="string">15 16</layer>
+                      <tip_x sid="tip_x" type="float">0</tip_x>
+                      <tip_y sid="tip_y" type="float">0.1</tip_y>
+                      <tip_z sid="tip_z" type="float">0</tip_z>
+                    </technique>
+                  </extra>
+                </node>
+                <node id="Armature_for_opensim_-_female_RIGHT_HANDLE" name="RIGHT_HANDLE" sid="RIGHT_HANDLE" type="JOINT">
+                  <matrix sid="transform">1 0 0 -7.45058e-9 0 1 0 -0.1 0 0 1 0.05800774 0 0 0 1</matrix>
+                  <extra>
+                    <technique profile="blender">
+                      <layer sid="layer" type="string">15 16</layer>
+                      <tip_x sid="tip_x" type="float">0</tip_x>
+                      <tip_y sid="tip_y" type="float">-0.1</tip_y>
+                      <tip_z sid="tip_z" type="float">0</tip_z>
+                    </technique>
+                  </extra>
+                </node>
+                <node id="Armature_for_opensim_-_female_LOWER_BACK" name="LOWER_BACK" sid="LOWER_BACK" type="JOINT">
+                  <matrix sid="transform">1 0 0 -1.74623e-9 0 1 0 0 -7.45058e-9 0 1 0.02300783 0 0 0 1</matrix>
+                  <extra>
+                    <technique profile="blender">
+                      <layer sid="layer" type="string">15 16</layer>
+                      <tip_x sid="tip_x" type="float">-0.1</tip_x>
+                      <tip_y sid="tip_y" type="float">0</tip_y>
+                      <tip_z sid="tip_z" type="float">0</tip_z>
+                    </technique>
+                  </extra>
+                </node>
+                <node id="Armature_for_opensim_-_female_mSpine3" name="mSpine3" sid="mSpine3" type="JOINT">
+                  <matrix sid="transform">1 0 0 0.01536799 0 1 0 0 0 -4.0295e-16 1 0.20488 0 0 0 1</matrix>
+                  <node id="Armature_for_opensim_-_female_mSpine4" name="mSpine4" sid="mSpine4" type="JOINT">
+                    <matrix sid="transform">1 0 0 -0.01536875 0 1 -4.44089e-16 -6.55495e-14 0 -4.44089e-16 1 -0.2048699 0 0 0 1</matrix>
+                    <node id="Armature_for_opensim_-_female_mChest" name="mChest" sid="mChest" type="JOINT">
+                      <matrix sid="transform">0.9999999 0 -1.49012e-8 0.01536726 0 1 2.22045e-15 4.82982e-14 0 0 0.9999999 0.20487 0 0 0 1</matrix>
+                      <node id="Armature_for_opensim_-_female_CHEST" name="CHEST" sid="CHEST" type="JOINT">
+                        <matrix sid="transform">1 -1.83928e-9 1.49012e-8 -0.003016003 0 0.9999999 1.49012e-8 0 1.49012e-8 -2.94072e-10 0.9999999 0.0700049 0 0 0 0.9999999</matrix>
+                        <extra>
+                          <technique profile="blender">
+                            <layer sid="layer" type="string">15 16</layer>
+                            <tip_x sid="tip_x" type="float">-0.120936</tip_x>
+                            <tip_y sid="tip_y" type="float">0</tip_y>
+                            <tip_z sid="tip_z" type="float">0.1330205</tip_z>
+                          </technique>
+                        </extra>
+                      </node>
+                      <node id="Armature_for_opensim_-_female_LEFT_PEC" name="LEFT_PEC" sid="LEFT_PEC" type="JOINT">
+                        <matrix sid="transform">1 -9.19642e-10 0 0.087074 0 1 7.45058e-9 0.07872 1.49012e-8 -1.47037e-10 1 0.04200495 0 0 0 1</matrix>
+                        <extra>
+                          <technique profile="blender">
+                            <layer sid="layer" type="string">15 16</layer>
+                            <tip_x sid="tip_x" type="float">0.07932698</tip_x>
+                            <tip_y sid="tip_y" type="float">0</tip_y>
+                            <tip_z sid="tip_z" type="float">-0.01196753</tip_z>
+                          </technique>
+                        </extra>
+                      </node>
+                      <node id="Armature_for_opensim_-_female_RIGHT_PEC" name="RIGHT_PEC" sid="RIGHT_PEC" type="JOINT">
+                        <matrix sid="transform">1 -9.19642e-10 0 0.087074 0 1 7.45058e-9 -0.07872 1.49012e-8 -1.47037e-10 1 0.04200495 0 0 0 1</matrix>
+                        <extra>
+                          <technique profile="blender">
+                            <layer sid="layer" type="string">15 16</layer>
+                            <tip_x sid="tip_x" type="float">0.07932698</tip_x>
+                            <tip_y sid="tip_y" type="float">0</tip_y>
+                            <tip_z sid="tip_z" type="float">-0.01196753</tip_z>
+                          </technique>
+                        </extra>
+                      </node>
+                      <node id="Armature_for_opensim_-_female_UPPER_BACK" name="UPPER_BACK" sid="UPPER_BACK" type="JOINT">
+                        <matrix sid="transform">1 0 1.49012e-8 -0.03073601 0 1 0 0 0 0 1 0.01700484 0 0 0 1</matrix>
+                        <extra>
+                          <technique profile="blender">
+                            <layer sid="layer" type="string">15 16</layer>
+                            <tip_x sid="tip_x" type="float">-0.1</tip_x>
+                            <tip_y sid="tip_y" type="float">0</tip_y>
+                            <tip_z sid="tip_z" type="float">0</tip_z>
+                          </technique>
+                        </extra>
+                      </node>
+                      <node id="Armature_for_opensim_-_female_mNeck" name="mNeck" sid="mNeck" type="JOINT">
+                        <matrix sid="transform">1 0 0 -0.04014795 0 1 0 0 0 0 1 0.2511079 0 0 0 1</matrix>
+                        <node id="Armature_for_opensim_-_female_NECK" name="NECK" sid="NECK" type="JOINT">
+                          <matrix sid="transform">1 0 0 2.98098e-10 0 1 0 0 0 0 1 0.02000499 0 0 0 1</matrix>
+                          <extra>
+                            <technique profile="blender">
+                              <layer sid="layer" type="string">15 16</layer>
+                              <tip_x sid="tip_x" type="float">0</tip_x>
+                              <tip_y sid="tip_y" type="float">0</tip_y>
+                              <tip_z sid="tip_z" type="float">0.08000004</tip_z>
+                            </technique>
+                          </extra>
+                        </node>
+                        <node id="Armature_for_opensim_-_female_mHead" name="mHead" sid="mHead" type="JOINT">
+                          <matrix sid="transform">1 0 0 2.98969e-9 0 1 0 0 0 0 1 0.07563496 0 0 0 1</matrix>
+                          <node id="Armature_for_opensim_-_female_HEAD" name="HEAD" sid="HEAD" type="JOINT">
+                            <matrix sid="transform">1 0 0 0.0185 0 1 0 0 0 0 0.9999999 0.06474996 0 0 0 1</matrix>
+                            <extra>
+                              <technique profile="blender">
+                                <layer sid="layer" type="string">15 16</layer>
+                                <tip_x sid="tip_x" type="float">0</tip_x>
+                                <tip_y sid="tip_y" type="float">0</tip_y>
+                                <tip_z sid="tip_z" type="float">0.1</tip_z>
+                              </technique>
+                            </extra>
+                          </node>
+                          <node id="Armature_for_opensim_-_female_mSkull" name="mSkull" sid="mSkull" type="JOINT">
+                            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0.06613755 0 0 0 1</matrix>
+                            <extra>
+                              <technique profile="blender">
+                                <layer sid="layer" type="string">4 16</layer>
+                                <tip_x sid="tip_x" type="float">0</tip_x>
+                                <tip_y sid="tip_y" type="float">0</tip_y>
+                                <tip_z sid="tip_z" type="float">0.03052496</tip_z>
+                              </technique>
+                            </extra>
+                          </node>
+                          <node id="Armature_for_opensim_-_female_mEyeRight" name="mEyeRight" sid="mEyeRight" type="JOINT">
+                            <matrix sid="transform">1 0 0 0.08977993 0 1 0 -0.036 0 0 1 0.07220709 0 0 0 1</matrix>
+                            <extra>
+                              <technique profile="blender">
+                                <layer sid="layer" type="string">4 16 24</layer>
+                                <tip_x sid="tip_x" type="float">0.02499997</tip_x>
+                                <tip_y sid="tip_y" type="float">0</tip_y>
+                                <tip_z sid="tip_z" type="float">0</tip_z>
+                              </technique>
+                            </extra>
+                          </node>
+                          <node id="Armature_for_opensim_-_female_mEyeLeft" name="mEyeLeft" sid="mEyeLeft" type="JOINT">
+                            <matrix sid="transform">1 0 0 0.08977993 0 1 0 0.036 0 0 1 0.07220709 0 0 0 1</matrix>
+                            <extra>
+                              <technique profile="blender">
+                                <layer sid="layer" type="string">4 16 24</layer>
+                                <tip_x sid="tip_x" type="float">0.02499997</tip_x>
+                                <tip_y sid="tip_y" type="float">0</tip_y>
+                                <tip_z sid="tip_z" type="float">0</tip_z>
+                              </technique>
+                            </extra>
+                          </node>
+                          <node id="Armature_for_opensim_-_female_mFaceRoot" name="mFaceRoot" sid="mFaceRoot" type="JOINT">
+                            <matrix sid="transform">1 0 0 0.02465493 0 1 0 0 0 0 1 0.0449971 0 0 0 1</matrix>
+                            <node id="Armature_for_opensim_-_female_mFaceEyeAltRight" name="mFaceEyeAltRight" sid="mFaceEyeAltRight" type="JOINT">
+                              <matrix sid="transform">1 0 0 0.065125 0 1 0 -0.03595746 0 0 1 0.02721 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">6 16 24</layer>
+                                  <tip_x sid="tip_x" type="float">0.02499997</tip_x>
+                                  <tip_y sid="tip_y" type="float">0</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceEyeAltLeft" name="mFaceEyeAltLeft" sid="mFaceEyeAltLeft" type="JOINT">
+                              <matrix sid="transform">1 0 0 0.065125 0 1 0 0.03595746 0 0 1 0.02721 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">6 16 24</layer>
+                                  <tip_x sid="tip_x" type="float">0.02499997</tip_x>
+                                  <tip_y sid="tip_y" type="float">0</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceForeheadLeft" name="mFaceForeheadLeft" sid="mFaceForeheadLeft" type="JOINT">
+                              <matrix sid="transform">0.9999999 0 0 0.057625 2.6054e-15 1 -7.10543e-15 0.035 2.98023e-8 -7.10543e-15 0.9999999 0.07576001 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">6 16</layer>
+                                  <tip_x sid="tip_x" type="float">0.02249997</tip_x>
+                                  <tip_y sid="tip_y" type="float">0</tip_y>
+                                  <tip_z sid="tip_z" type="float">0.01654005</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceForeheadRight" name="mFaceForeheadRight" sid="mFaceForeheadRight" type="JOINT">
+                              <matrix sid="transform">0.9999999 0 0 0.057625 2.6054e-15 1 -7.10543e-15 -0.035 2.98023e-8 -7.10543e-15 0.9999999 0.07576001 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">6 16</layer>
+                                  <tip_x sid="tip_x" type="float">0.02249997</tip_x>
+                                  <tip_y sid="tip_y" type="float">0</tip_y>
+                                  <tip_z sid="tip_z" type="float">0.01654005</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceEyebrowOuterLeft" name="mFaceEyebrowOuterLeft" sid="mFaceEyebrowOuterLeft" type="JOINT">
+                              <matrix sid="transform">1 7.51428e-15 0 0.05767007 -2.38935e-15 1 0 0.051 0 -7.10543e-15 1 0.04193175 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">8 16</layer>
+                                  <tip_x sid="tip_x" type="float">0.02127498</tip_x>
+                                  <tip_y sid="tip_y" type="float">0.009712457</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceEyebrowCenterLeft" name="mFaceEyebrowCenterLeft" sid="mFaceEyebrowCenterLeft" type="JOINT">
+                              <matrix sid="transform">1 0 0 0.06322007 0 1 0 0.04244607 0 0 1 0.05254197 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">8 16</layer>
+                                  <tip_x sid="tip_x" type="float">0.024975</tip_x>
+                                  <tip_y sid="tip_y" type="float">0</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceEyebrowInnerLeft" name="mFaceEyebrowInnerLeft" sid="mFaceEyebrowInnerLeft" type="JOINT">
+                              <matrix sid="transform">1 0 0 0.06784508 0 1 0 0.02301145 0 0 1 0.04520416 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">8 16</layer>
+                                  <tip_x sid="tip_x" type="float">0.02404999</tip_x>
+                                  <tip_y sid="tip_y" type="float">0</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceEyebrowOuterRight" name="mFaceEyebrowOuterRight" sid="mFaceEyebrowOuterRight" type="JOINT">
+                              <matrix sid="transform">1 6.51835e-15 0 0.05767007 2.38935e-15 1 0 -0.051 0 -7.10543e-15 1 0.04193175 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">8 16</layer>
+                                  <tip_x sid="tip_x" type="float">0.02127498</tip_x>
+                                  <tip_y sid="tip_y" type="float">-0.009712457</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceEyebrowCenterRight" name="mFaceEyebrowCenterRight" sid="mFaceEyebrowCenterRight" type="JOINT">
+                              <matrix sid="transform">1 0 0 0.06322007 0 1 0 -0.04244607 0 0 1 0.05254197 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">8 16</layer>
+                                  <tip_x sid="tip_x" type="float">0.024975</tip_x>
+                                  <tip_y sid="tip_y" type="float">0</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceEyebrowInnerRight" name="mFaceEyebrowInnerRight" sid="mFaceEyebrowInnerRight" type="JOINT">
+                              <matrix sid="transform">1 0 0 0.06784508 0 1 0 -0.02301145 0 0 1 0.04520416 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">8 16</layer>
+                                  <tip_x sid="tip_x" type="float">0.02404999</tip_x>
+                                  <tip_y sid="tip_y" type="float">0</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceEyeLidUpperLeft" name="mFaceEyeLidUpperLeft" sid="mFaceEyeLidUpperLeft" type="JOINT">
+                              <matrix sid="transform">1 2.57542e-15 0 0.06599507 1.77636e-15 1 -7.10543e-15 0.03595746 0 0 1 0.02820897 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">8 16</layer>
+                                  <tip_x sid="tip_x" type="float">0.024975</tip_x>
+                                  <tip_y sid="tip_y" type="float">0</tip_y>
+                                  <tip_z sid="tip_z" type="float">0.004624962</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceEyeLidLowerLeft" name="mFaceEyeLidLowerLeft" sid="mFaceEyeLidLowerLeft" type="JOINT">
+                              <matrix sid="transform">1 -1.86547e-15 0 0.06599507 -3.55271e-15 1 0 0.03595746 0 7.10543e-15 1 0.02807343 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">8 16</layer>
+                                  <tip_x sid="tip_x" type="float">0.02219998</tip_x>
+                                  <tip_y sid="tip_y" type="float">0</tip_y>
+                                  <tip_z sid="tip_z" type="float">-0.006474971</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceEyeLidUpperRight" name="mFaceEyeLidUpperRight" sid="mFaceEyeLidUpperRight" type="JOINT">
+                              <matrix sid="transform">1 2.57542e-15 0 0.06599507 1.77636e-15 1 -7.10543e-15 -0.03595746 0 0 1 0.02820897 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">8 16</layer>
+                                  <tip_x sid="tip_x" type="float">0.024975</tip_x>
+                                  <tip_y sid="tip_y" type="float">0</tip_y>
+                                  <tip_z sid="tip_z" type="float">0.004624962</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceEyeLidLowerRight" name="mFaceEyeLidLowerRight" sid="mFaceEyeLidLowerRight" type="JOINT">
+                              <matrix sid="transform">1 -1.86547e-15 0 0.06599507 -3.55271e-15 1 0 -0.03595746 0 7.10543e-15 1 0.02807343 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">8 16</layer>
+                                  <tip_x sid="tip_x" type="float">0.02219998</tip_x>
+                                  <tip_y sid="tip_y" type="float">0</tip_y>
+                                  <tip_z sid="tip_z" type="float">-0.006474971</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceEar1Left" name="mFaceEar1Left" sid="mFaceEar1Left" type="JOINT">
+                              <matrix sid="transform">1 7.01631e-15 2.98023e-8 -0.00152993 -1.49012e-8 1 -1.68854e-8 0.07568 -5.96046e-8 1.98419e-9 1 -1.76549e-4 0 0 0 1</matrix>
+                              <node id="Armature_for_opensim_-_female_mFaceEar2Left" name="mFaceEar2Left" sid="mFaceEar2Left" type="JOINT">
+                                <matrix sid="transform">1 -1.49012e-8 2.98023e-8 -0.01900004 2.98023e-8 1 -2.98023e-8 0.01799997 -5.96046e-8 -2.98023e-8 1 0.02499989 0 0 0 1</matrix>
+                                <extra>
+                                  <technique profile="blender">
+                                    <connect sid="connect" type="bool">1</connect>
+                                    <layer sid="layer" type="string">7 16</layer>
+                                    <tip_x sid="tip_x" type="float">0</tip_x>
+                                    <tip_y sid="tip_y" type="float">0</tip_y>
+                                    <tip_z sid="tip_z" type="float">0.03299999</tip_z>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">7 16</layer>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceEar1Right" name="mFaceEar1Right" sid="mFaceEar1Right" type="JOINT">
+                              <matrix sid="transform">1 1.49012e-8 0 -0.00152993 -2.6054e-15 1 1.2917e-8 -0.07568 -2.98023e-8 1.98419e-9 1 -1.76549e-4 0 0 0 1</matrix>
+                              <node id="Armature_for_opensim_-_female_mFaceEar2Right" name="mFaceEar2Right" sid="mFaceEar2Right" type="JOINT">
+                                <matrix sid="transform">1 1.49012e-8 0 -0.01900006 1.49012e-8 1 0 -0.01800009 -2.98023e-8 -1.49012e-8 1 0.02500013 0 0 0 1</matrix>
+                                <extra>
+                                  <technique profile="blender">
+                                    <connect sid="connect" type="bool">1</connect>
+                                    <layer sid="layer" type="string">7 16</layer>
+                                    <tip_x sid="tip_x" type="float">0</tip_x>
+                                    <tip_y sid="tip_y" type="float">0</tip_y>
+                                    <tip_z sid="tip_z" type="float">0.03299999</tip_z>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">7 16</layer>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceNoseLeft" name="mFaceNoseLeft" sid="mFaceNoseLeft" type="JOINT">
+                              <matrix sid="transform">1 7.14264e-15 0 0.07802008 -1.77643e-15 1 0 0.01419 0 7.10543e-15 1 -0.006956577 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">6 16</layer>
+                                  <tip_x sid="tip_x" type="float">0.01387494</tip_x>
+                                  <tip_y sid="tip_y" type="float">0.003699958</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceNoseCenter" name="mFaceNoseCenter" sid="mFaceNoseCenter" type="JOINT">
+                              <matrix sid="transform">1 0 0 0.09282008 0 1 0 -8.32667e-16 0 0 1 -0.003340602 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">6 16 22</layer>
+                                  <tip_x sid="tip_x" type="float">0.0220673</tip_x>
+                                  <tip_y sid="tip_y" type="float">0</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceNoseRight" name="mFaceNoseRight" sid="mFaceNoseRight" type="JOINT">
+                              <matrix sid="transform">1 6.88999e-15 -1.77636e-15 0.07802008 1.77643e-15 1 0 -0.01419 0 7.10543e-15 1 -0.006956577 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">6 16</layer>
+                                  <tip_x sid="tip_x" type="float">0.01387494</tip_x>
+                                  <tip_y sid="tip_y" type="float">-0.003699958</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceCheekLowerLeft" name="mFaceCheekLowerLeft" sid="mFaceCheekLowerLeft" type="JOINT">
+                              <matrix sid="transform">1 9.36379e-15 7.10543e-15 0.04472007 -4.40804e-16 1 7.10543e-15 0.032164 -3.55271e-15 -7.10543e-15 1 -0.03231382 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">6 16</layer>
+                                  <tip_x sid="tip_x" type="float">0.01202499</tip_x>
+                                  <tip_y sid="tip_y" type="float">0.02774995</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceCheekUpperLeft" name="mFaceCheekUpperLeft" sid="mFaceCheekUpperLeft" type="JOINT">
+                              <matrix sid="transform">1 7.07719e-15 -8.88178e-16 0.06322007 -7.65162e-16 1 0 0.032164 0 0 1 -0.007860541 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">6 16</layer>
+                                  <tip_x sid="tip_x" type="float">0.02034997</tip_x>
+                                  <tip_y sid="tip_y" type="float">0.01387494</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceCheekLowerRight" name="mFaceCheekLowerRight" sid="mFaceCheekLowerRight" type="JOINT">
+                              <matrix sid="transform">1 4.66884e-15 -7.10543e-15 0.04472007 4.40804e-16 1 7.10543e-15 -0.032164 3.55271e-15 -7.10543e-15 1 -0.03231382 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">6 16</layer>
+                                  <tip_x sid="tip_x" type="float">0.01202499</tip_x>
+                                  <tip_y sid="tip_y" type="float">-0.02774995</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceCheekUpperRight" name="mFaceCheekUpperRight" sid="mFaceCheekUpperRight" type="JOINT">
+                              <matrix sid="transform">1 6.95544e-15 8.88178e-16 0.06322007 7.65162e-16 1 0 -0.032164 0 0 1 -0.007860541 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">6 16</layer>
+                                  <tip_x sid="tip_x" type="float">0.02034997</tip_x>
+                                  <tip_y sid="tip_y" type="float">-0.01387494</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceJaw" name="mFaceJaw" sid="mFaceJaw" type="JOINT">
+                              <matrix sid="transform">0.9999999 0 0 -0.002454931 0 1 0 -4.55191e-15 0 0 0.9999999 -0.01554465 0 0 0 1</matrix>
+                              <node id="Armature_for_opensim_-_female_mFaceChin" name="mFaceChin" sid="mFaceChin" type="JOINT">
+                                <matrix sid="transform">1 0 -5.96046e-8 0.06428738 3.55271e-15 1 0 2.38698e-14 -5.96046e-8 0 1 -0.05133761 0 0 0 1</matrix>
+                                <extra>
+                                  <technique profile="blender">
+                                    <layer sid="layer" type="string">11 16 22</layer>
+                                    <tip_x sid="tip_x" type="float">0.01942497</tip_x>
+                                    <tip_y sid="tip_y" type="float">0</tip_y>
+                                    <tip_z sid="tip_z" type="float">-0.01664996</tip_z>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <node id="Armature_for_opensim_-_female_mFaceTeethLower" name="mFaceTeethLower" sid="mFaceTeethLower" type="JOINT">
+                                <matrix sid="transform">0.9999999 -3.55271e-15 0 0.01942485 3.55271e-15 1 -3.55271e-15 2.15383e-14 0 -3.55271e-15 0.9999999 -0.03776788 0 0 0 1</matrix>
+                                <node id="Armature_for_opensim_-_female_mFaceLipLowerLeft" name="mFaceLipLowerLeft" sid="mFaceLipLowerLeft" type="JOINT">
+                                  <matrix sid="transform">0.9999999 7.45061e-9 1.49012e-8 0.041625 1.49012e-8 1 -1.98418e-9 -3.16513e-15 -2.23517e-8 -2.78181e-8 1 5.01978e-10 0 0 0 1</matrix>
+                                  <extra>
+                                    <technique profile="blender">
+                                      <layer sid="layer" type="string">10 16</layer>
+                                      <tip_x sid="tip_x" type="float">0.03144997</tip_x>
+                                      <tip_y sid="tip_y" type="float">0.01572495</tip_y>
+                                      <tip_z sid="tip_z" type="float">0.004624962</tip_z>
+                                    </technique>
+                                  </extra>
+                                </node>
+                                <node id="Armature_for_opensim_-_female_mFaceLipLowerRight" name="mFaceLipLowerRight" sid="mFaceLipLowerRight" type="JOINT">
+                                  <matrix sid="transform">1 2.4869e-14 -7.45058e-9 0.041625 -7.45057e-9 1 -3.17865e-8 -3.16513e-15 3.55271e-15 3.17865e-8 1 5.01978e-10 0 0 0 1</matrix>
+                                  <extra>
+                                    <technique profile="blender">
+                                      <layer sid="layer" type="string">10 16</layer>
+                                      <tip_x sid="tip_x" type="float">0.03144997</tip_x>
+                                      <tip_y sid="tip_y" type="float">-0.01572495</tip_y>
+                                      <tip_z sid="tip_z" type="float">0.004624962</tip_z>
+                                    </technique>
+                                  </extra>
+                                </node>
+                                <node id="Armature_for_opensim_-_female_mFaceLipLowerCenter" name="mFaceLipLowerCenter" sid="mFaceLipLowerCenter" type="JOINT">
+                                  <matrix sid="transform">1 2.81175e-16 3.55271e-15 0.041625 0 1 -7.10543e-15 -3.16513e-15 3.55271e-15 0 1 5.01978e-10 0 0 0 1</matrix>
+                                  <extra>
+                                    <technique profile="blender">
+                                      <layer sid="layer" type="string">10 16 22</layer>
+                                      <tip_x sid="tip_x" type="float">0.037</tip_x>
+                                      <tip_y sid="tip_y" type="float">0</tip_y>
+                                      <tip_z sid="tip_z" type="float">0.001850008</tip_z>
+                                    </technique>
+                                  </extra>
+                                </node>
+                                <node id="Armature_for_opensim_-_female_mFaceTongueBase" name="mFaceTongueBase" sid="mFaceTongueBase" type="JOINT">
+                                  <matrix sid="transform">1 -8.29048e-16 3.55271e-15 0.03607499 -7.10543e-15 1 1.42109e-14 -3.27516e-15 -2.98023e-8 0 1 0.004624963 0 0 0 1</matrix>
+                                  <node id="Armature_for_opensim_-_female_mFaceTongueTip" name="mFaceTongueTip" sid="mFaceTongueTip" type="JOINT">
+                                    <matrix sid="transform">1 0 0 0.02035001 1.77636e-15 1 0 -4.07992e-15 -2.98023e-8 0 1 0.006475008 0 0 0 1</matrix>
+                                    <extra>
+                                      <technique profile="blender">
+                                        <connect sid="connect" type="bool">1</connect>
+                                        <layer sid="layer" type="string">11 16 22</layer>
+                                        <tip_x sid="tip_x" type="float">0.009249985</tip_x>
+                                        <tip_y sid="tip_y" type="float">0</tip_y>
+                                        <tip_z sid="tip_z" type="float">0</tip_z>
+                                      </technique>
+                                    </extra>
+                                  </node>
+                                  <extra>
+                                    <technique profile="blender">
+                                      <layer sid="layer" type="string">11 16 22</layer>
+                                    </technique>
+                                  </extra>
+                                </node>
+                                <extra>
+                                  <technique profile="blender">
+                                    <layer sid="layer" type="string">11 16 22</layer>
+                                    <tip_x sid="tip_x" type="float">0.03237497</tip_x>
+                                    <tip_y sid="tip_y" type="float">0</tip_y>
+                                    <tip_z sid="tip_z" type="float">0</tip_z>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">11 16 22</layer>
+                                  <tip_x sid="tip_x" type="float">0.05457496</tip_x>
+                                  <tip_y sid="tip_y" type="float">0</tip_y>
+                                  <tip_z sid="tip_z" type="float">-0.03607499</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceJawShaper" name="mFaceJawShaper" sid="mFaceJawShaper" type="JOINT">
+                              <matrix sid="transform">1 0 0 -0.00152993 0 1 0 -2.01228e-15 0 0 1 -0.001984596 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">6 16 22</layer>
+                                  <tip_x sid="tip_x" type="float">-0.01572495</tip_x>
+                                  <tip_y sid="tip_y" type="float">0</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceForeheadCenter" name="mFaceForeheadCenter" sid="mFaceForeheadCenter" type="JOINT">
+                              <matrix sid="transform">1 0 0 0.06257257 0 1 0 -9.32587e-15 0 0 1 0.05650425 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">6 16 22</layer>
+                                  <tip_x sid="tip_x" type="float">0.03329998</tip_x>
+                                  <tip_y sid="tip_y" type="float">0</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceNoseBase" name="mFaceNoseBase" sid="mFaceNoseBase" type="JOINT">
+                              <matrix sid="transform">1 0 0 0.08542007 0 1 0 -1.03251e-14 0 0 1 -0.01988375 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">9 16</layer>
+                                  <tip_x sid="tip_x" type="float">0.01295</tip_x>
+                                  <tip_y sid="tip_y" type="float">0</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceTeethUpper" name="mFaceTeethUpper" sid="mFaceTeethUpper" type="JOINT">
+                              <matrix sid="transform">1 0 0 0.01697007 0 1 0 -3.77476e-15 0 0 1 -0.03113854 0 0 0 1</matrix>
+                              <node id="Armature_for_opensim_-_female_mFaceLipUpperLeft" name="mFaceLipUpperLeft" sid="mFaceLipUpperLeft" type="JOINT">
+                                <matrix sid="transform">1 7.01631e-15 0 0.041625 0 1 0 0 0 0 1 -0.003754377 0 0 0 1</matrix>
+                                <extra>
+                                  <technique profile="blender">
+                                    <layer sid="layer" type="string">10 16</layer>
+                                    <tip_x sid="tip_x" type="float">0.037925</tip_x>
+                                    <tip_y sid="tip_y" type="float">0.01387494</tip_y>
+                                    <tip_z sid="tip_z" type="float">0</tip_z>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <node id="Armature_for_opensim_-_female_mFaceLipUpperRight" name="mFaceLipUpperRight" sid="mFaceLipUpperRight" type="JOINT">
+                                <matrix sid="transform">1 7.01631e-15 0 0.041625 0 1 0 0 0 0 1 -0.003754377 0 0 0 1</matrix>
+                                <extra>
+                                  <technique profile="blender">
+                                    <layer sid="layer" type="string">10 16</layer>
+                                    <tip_x sid="tip_x" type="float">0.037925</tip_x>
+                                    <tip_y sid="tip_y" type="float">-0.01387494</tip_y>
+                                    <tip_z sid="tip_z" type="float">0</tip_z>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <node id="Armature_for_opensim_-_female_mFaceLipCornerLeft" name="mFaceLipCornerLeft" sid="mFaceLipCornerLeft" type="JOINT">
+                                <matrix sid="transform">1 7.01631e-15 0 0.0259 0 1 0 -0.017575 0 0 1 -0.009250045 0 0 0 1</matrix>
+                                <extra>
+                                  <technique profile="blender">
+                                    <layer sid="layer" type="string">10 16</layer>
+                                    <tip_x sid="tip_x" type="float">0.04162496</tip_x>
+                                    <tip_y sid="tip_y" type="float">0.04717499</tip_y>
+                                    <tip_z sid="tip_z" type="float">0</tip_z>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <node id="Armature_for_opensim_-_female_mFaceLipCornerRight" name="mFaceLipCornerRight" sid="mFaceLipCornerRight" type="JOINT">
+                                <matrix sid="transform">1 7.01631e-15 0 0.0259 0 1 0 0.017575 0 0 1 -0.009250045 0 0 0 1</matrix>
+                                <extra>
+                                  <technique profile="blender">
+                                    <layer sid="layer" type="string">10 16</layer>
+                                    <tip_x sid="tip_x" type="float">0.04162496</tip_x>
+                                    <tip_y sid="tip_y" type="float">-0.04717499</tip_y>
+                                    <tip_z sid="tip_z" type="float">0</tip_z>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <node id="Armature_for_opensim_-_female_mFaceLipUpperCenter" name="mFaceLipUpperCenter" sid="mFaceLipUpperCenter" type="JOINT">
+                                <matrix sid="transform">1 0 0 0.041625 0 1 0 0 -3.72529e-9 -7.10543e-15 1 -0.002448559 0 0 0 1</matrix>
+                                <extra>
+                                  <technique profile="blender">
+                                    <layer sid="layer" type="string">10 16 22</layer>
+                                    <tip_x sid="tip_x" type="float">0.03977495</tip_x>
+                                    <tip_y sid="tip_y" type="float">0</tip_y>
+                                    <tip_z sid="tip_z" type="float">0.00192058</tip_z>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">11 16 22</layer>
+                                  <tip_x sid="tip_x" type="float">0.03237497</tip_x>
+                                  <tip_y sid="tip_y" type="float">0</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceEyecornerInnerLeft" name="mFaceEyecornerInnerLeft" sid="mFaceEyecornerInnerLeft" type="JOINT">
+                              <matrix sid="transform">1 0 0 0.06784508 0 1 0 0.01812221 0 0 1 0.02626538 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">6 16</layer>
+                                  <tip_x sid="tip_x" type="float">0.01479995</tip_x>
+                                  <tip_y sid="tip_y" type="float">0</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceEyecornerInnerRight" name="mFaceEyecornerInnerRight" sid="mFaceEyecornerInnerRight" type="JOINT">
+                              <matrix sid="transform">1 0 0 0.06784508 0 1 0 -0.01812221 0 0 1 0.02626538 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">6 16</layer>
+                                  <tip_x sid="tip_x" type="float">0.01479995</tip_x>
+                                  <tip_y sid="tip_y" type="float">0</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mFaceNoseBridge" name="mFaceNoseBridge" sid="mFaceNoseBridge" type="JOINT">
+                              <matrix sid="transform">1 0 0 0.08264507 0 1 0 -8.88178e-16 0 0 1 0.0160954 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">9 16 22</layer>
+                                  <tip_x sid="tip_x" type="float">0.01387494</tip_x>
+                                  <tip_y sid="tip_y" type="float">0</tip_y>
+                                  <tip_z sid="tip_z" type="float">0.007400035</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <extra>
+                              <technique profile="blender">
+                                <layer sid="layer" type="string">6 16 22</layer>
+                                <tip_x sid="tip_x" type="float">0.01697003</tip_x>
+                                <tip_y sid="tip_y" type="float">0</tip_y>
+                                <tip_z sid="tip_z" type="float">0</tip_z>
+                              </technique>
+                            </extra>
+                          </node>
+                          <extra>
+                            <technique profile="blender">
+                              <connect sid="connect" type="bool">1</connect>
+                              <layer sid="layer" type="string">0 16</layer>
+                              <tip_x sid="tip_x" type="float">0</tip_x>
+                              <tip_y sid="tip_y" type="float">0</tip_y>
+                              <tip_z sid="tip_z" type="float">0.07307505</tip_z>
+                            </technique>
+                          </extra>
+                        </node>
+                        <extra>
+                          <technique profile="blender">
+                            <connect sid="connect" type="bool">1</connect>
+                            <layer sid="layer" type="string">0 16 17</layer>
+                          </technique>
+                        </extra>
+                      </node>
+                      <node id="Armature_for_opensim_-_female_mCollarLeft" name="mCollarLeft" sid="mCollarLeft" type="JOINT">
+                        <matrix sid="transform">1 0 0 -0.05145374 0 1 0 0.0716784 1.49012e-8 0 1 0.1654009 0 0 0 1</matrix>
+                        <node id="Armature_for_opensim_-_female_L_CLAVICLE" name="L_CLAVICLE" sid="L_CLAVICLE" type="JOINT">
+                          <matrix sid="transform">1 0 0 0.02 0 1 0 0 0 0 1 0.01999986 0 0 0 1</matrix>
+                          <extra>
+                            <technique profile="blender">
+                              <layer sid="layer" type="string">15 16</layer>
+                              <tip_x sid="tip_x" type="float">0</tip_x>
+                              <tip_y sid="tip_y" type="float">0.09999996</tip_y>
+                              <tip_z sid="tip_z" type="float">0</tip_z>
+                            </technique>
+                          </extra>
+                        </node>
+                        <node id="Armature_for_opensim_-_female_mShoulderLeft" name="mShoulderLeft" sid="mShoulderLeft" type="JOINT">
+                          <matrix sid="transform">1 0 0 -7.23364e-15 0 1 0 0.079 0 0 1 -1.2136e-7 0 0 0 1</matrix>
+                          <node id="Armature_for_opensim_-_female_L_UPPER_ARM" name="L_UPPER_ARM" sid="L_UPPER_ARM" type="JOINT">
+                            <matrix sid="transform">1 0 7.45058e-9 0 0 1 0 0.1344 0 0 1 0.009999871 0 0 0 1</matrix>
+                            <extra>
+                              <technique profile="blender">
+                                <layer sid="layer" type="string">15 16</layer>
+                                <tip_x sid="tip_x" type="float">0</tip_x>
+                                <tip_y sid="tip_y" type="float">0.1292438</tip_y>
+                                <tip_z sid="tip_z" type="float">-0.01431882</tip_z>
+                              </technique>
+                            </extra>
+                          </node>
+                          <node id="Armature_for_opensim_-_female_mElbowLeft" name="mElbowLeft" sid="mElbowLeft" type="JOINT">
+                            <matrix sid="transform">1 0 0 0 0 1 0 0.27776 0 0 1 -1.19209e-7 0 0 0 1</matrix>
+                            <node id="Armature_for_opensim_-_female_L_LOWER_ARM" name="L_LOWER_ARM" sid="L_LOWER_ARM" type="JOINT">
+                              <matrix sid="transform">0.9999999 0 -3.72529e-9 0 0 1 0 0.118 -3.72529e-9 0 1 -1.19209e-7 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">15 16</layer>
+                                  <tip_x sid="tip_x" type="float">0</tip_x>
+                                  <tip_y sid="tip_y" type="float">0.0998106</tip_y>
+                                  <tip_z sid="tip_z" type="float">-0.006232261</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mWristLeft" name="mWristLeft" sid="mWristLeft" type="JOINT">
+                              <matrix sid="transform">1 0 0 0 0 1 0 0.2417183 0 0 1 -1.19209e-7 0 0 0 1</matrix>
+                              <node id="Armature_for_opensim_-_female_L_HAND" name="L_HAND" sid="L_HAND" type="JOINT">
+                                <matrix sid="transform">1 1.49488e-8 0 0.009999999 -1.49012e-8 1 -9.31322e-10 0.05000001 3.72529e-9 2.30743e-11 1 -1.19209e-7 0 0 0 1</matrix>
+                                <extra>
+                                  <technique profile="blender">
+                                    <layer sid="layer" type="string">15 16</layer>
+                                    <tip_x sid="tip_x" type="float">0.01341199</tip_x>
+                                    <tip_y sid="tip_y" type="float">0.04726964</tip_y>
+                                    <tip_z sid="tip_z" type="float">-0.003563046</tip_z>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <node id="Armature_for_opensim_-_female_mHandMiddle1Left" name="mHandMiddle1Left" sid="mHandMiddle1Left" type="JOINT">
+                                <matrix sid="transform">1 5.58794e-9 1.49012e-8 0.013 -1.86264e-9 1 -1.49012e-8 0.101 3.55271e-15 0 1 0.01499987 0 0 0 1</matrix>
+                                <node id="Armature_for_opensim_-_female_mHandMiddle2Left" name="mHandMiddle2Left" sid="mHandMiddle2Left" type="JOINT">
+                                  <matrix sid="transform">0.9999999 1.11759e-8 4.47035e-8 -9.9998e-4 -3.72529e-9 0.9999999 0 0.04000006 1.49012e-8 0 0.9999999 -0.006000114 0 0 0 1</matrix>
+                                  <node id="Armature_for_opensim_-_female_mHandMiddle3Left" name="mHandMiddle3Left" sid="mHandMiddle3Left" type="JOINT">
+                                    <matrix sid="transform">1 1.86265e-9 1.49012e-8 -9.99983e-4 -1.86265e-9 1 -1.49012e-8 0.04899999 1.49012e-8 0 1 -0.008000114 0 0 0 1</matrix>
+                                    <extra>
+                                      <technique profile="blender">
+                                        <connect sid="connect" type="bool">1</connect>
+                                        <layer sid="layer" type="string">5 16</layer>
+                                        <tip_x sid="tip_x" type="float">-0.001999974</tip_x>
+                                        <tip_y sid="tip_y" type="float">0.03299999</tip_y>
+                                        <tip_z sid="tip_z" type="float">-0.006000041</tip_z>
+                                      </technique>
+                                    </extra>
+                                  </node>
+                                  <extra>
+                                    <technique profile="blender">
+                                      <connect sid="connect" type="bool">1</connect>
+                                      <layer sid="layer" type="string">5 16</layer>
+                                    </technique>
+                                  </extra>
+                                </node>
+                                <extra>
+                                  <technique profile="blender">
+                                    <layer sid="layer" type="string">5 16</layer>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <node id="Armature_for_opensim_-_female_mHandIndex1Left" name="mHandIndex1Left" sid="mHandIndex1Left" type="JOINT">
+                                <matrix sid="transform">1 3.35276e-8 0 0.038 -2.6077e-8 1 1.49012e-8 0.097 2.98023e-8 -1.49012e-8 1 0.01499987 0 0 0 1</matrix>
+                                <node id="Armature_for_opensim_-_female_mHandIndex2Left" name="mHandIndex2Left" sid="mHandIndex2Left" type="JOINT">
+                                  <matrix sid="transform">1 6.70552e-8 -2.98023e-8 0.01700004 0 1 4.47035e-8 0.03600008 -1.49012e-8 -1.49012e-8 1 -0.006000068 0 0 0 1</matrix>
+                                  <node id="Armature_for_opensim_-_female_mHandIndex3Left" name="mHandIndex3Left" sid="mHandIndex3Left" type="JOINT">
+                                    <matrix sid="transform">1 -1.15484e-7 -1.49012e-8 0.01399994 0 0.9999999 1.49012e-8 0.03199995 0 1.49012e-8 1 -0.006000037 0 0 0 1</matrix>
+                                    <extra>
+                                      <technique profile="blender">
+                                        <connect sid="connect" type="bool">1</connect>
+                                        <layer sid="layer" type="string">5 16</layer>
+                                        <tip_x sid="tip_x" type="float">0.01099997</tip_x>
+                                        <tip_y sid="tip_y" type="float">0.02499997</tip_y>
+                                        <tip_z sid="tip_z" type="float">-0.003999948</tip_z>
+                                      </technique>
+                                    </extra>
+                                  </node>
+                                  <extra>
+                                    <technique profile="blender">
+                                      <connect sid="connect" type="bool">1</connect>
+                                      <layer sid="layer" type="string">5 16</layer>
+                                    </technique>
+                                  </extra>
+                                </node>
+                                <extra>
+                                  <technique profile="blender">
+                                    <layer sid="layer" type="string">5 16</layer>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <node id="Armature_for_opensim_-_female_mHandRing1Left" name="mHandRing1Left" sid="mHandRing1Left" type="JOINT">
+                                <matrix sid="transform">1 -1.86264e-8 0 -0.009999997 1.11759e-8 1 -2.98023e-8 0.09899998 3.55271e-15 1.49012e-8 1 0.008999825 0 0 0 1</matrix>
+                                <node id="Armature_for_opensim_-_female_mHandRing2Left" name="mHandRing2Left" sid="mHandRing2Left" type="JOINT">
+                                  <matrix sid="transform">1 -1.11759e-8 -1.49012e-8 -0.01299998 1.11759e-8 1 -2.98023e-8 0.03799993 0 0 1 -0.00800005 0 0 0 1</matrix>
+                                  <node id="Armature_for_opensim_-_female_mHandRing3Left" name="mHandRing3Left" sid="mHandRing3Left" type="JOINT">
+                                    <matrix sid="transform">1 -5.21541e-8 0 -0.01299997 -3.35276e-8 1 1.49012e-8 0.0400001 0 -2.98023e-8 1 -0.009000102 0 0 0 1</matrix>
+                                    <extra>
+                                      <technique profile="blender">
+                                        <connect sid="connect" type="bool">1</connect>
+                                        <layer sid="layer" type="string">5 16</layer>
+                                        <tip_x sid="tip_x" type="float">-0.00999999</tip_x>
+                                        <tip_y sid="tip_y" type="float">0.02799999</tip_y>
+                                        <tip_z sid="tip_z" type="float">-0.006000041</tip_z>
+                                      </technique>
+                                    </extra>
+                                  </node>
+                                  <extra>
+                                    <technique profile="blender">
+                                      <connect sid="connect" type="bool">1</connect>
+                                      <layer sid="layer" type="string">5 16</layer>
+                                    </technique>
+                                  </extra>
+                                </node>
+                                <extra>
+                                  <technique profile="blender">
+                                    <layer sid="layer" type="string">5 16</layer>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <node id="Armature_for_opensim_-_female_mHandPinky1Left" name="mHandPinky1Left" sid="mHandPinky1Left" type="JOINT">
+                                <matrix sid="transform">0.9999999 3.72529e-9 0 -0.031 8.38191e-9 0.9999999 7.45058e-9 0.09500003 -1.49012e-8 0 1 0.002999902 0 0 0 1</matrix>
+                                <node id="Armature_for_opensim_-_female_mHandPinky2Left" name="mHandPinky2Left" sid="mHandPinky2Left" type="JOINT">
+                                  <matrix sid="transform">1 9.31323e-10 0 -0.024 7.45058e-9 1 7.45058e-9 0.02499996 0 2.23517e-8 1 -0.005999956 0 0 0 1</matrix>
+                                  <node id="Armature_for_opensim_-_female_mHandPinky3Left" name="mHandPinky3Left" sid="mHandPinky3Left" type="JOINT">
+                                    <matrix sid="transform">1 -6.23986e-8 2.98023e-8 -0.01500001 2.98023e-8 1 -2.23517e-8 0.01800001 -1.49012e-8 -1.49012e-8 1 -0.003999964 0 0 0 1</matrix>
+                                    <extra>
+                                      <technique profile="blender">
+                                        <connect sid="connect" type="bool">1</connect>
+                                        <layer sid="layer" type="string">5 16</layer>
+                                        <tip_x sid="tip_x" type="float">-0.01299995</tip_x>
+                                        <tip_y sid="tip_y" type="float">0.01599997</tip_y>
+                                        <tip_z sid="tip_z" type="float">-0.003999948</tip_z>
+                                      </technique>
+                                    </extra>
+                                  </node>
+                                  <extra>
+                                    <technique profile="blender">
+                                      <connect sid="connect" type="bool">1</connect>
+                                      <layer sid="layer" type="string">5 16</layer>
+                                    </technique>
+                                  </extra>
+                                </node>
+                                <extra>
+                                  <technique profile="blender">
+                                    <layer sid="layer" type="string">5 16</layer>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <node id="Armature_for_opensim_-_female_mHandThumb1Left" name="mHandThumb1Left" sid="mHandThumb1Left" type="JOINT">
+                                <matrix sid="transform">1 -1.6531e-8 3.72529e-9 0.031 -4.58676e-8 1 0 0.02600002 3.72529e-9 3.72529e-9 1 0.003999829 0 0 0 1</matrix>
+                                <node id="Armature_for_opensim_-_female_mHandThumb2Left" name="mHandThumb2Left" sid="mHandThumb2Left" type="JOINT">
+                                  <matrix sid="transform">1 -1.6531e-8 0 0.02800005 1.38534e-8 1 3.72529e-9 0.03200001 1.86265e-9 1.11759e-8 1 -0.00100012 0 0 0 1</matrix>
+                                  <node id="Armature_for_opensim_-_female_mHandThumb3Left" name="mHandThumb3Left" sid="mHandThumb3Left" type="JOINT">
+                                    <matrix sid="transform">0.9999999 1.95578e-8 0 0.02299999 -1.00117e-8 1 0 0.03100004 0 7.45058e-9 1 -0.001000149 0 0 0 1</matrix>
+                                    <extra>
+                                      <technique profile="blender">
+                                        <connect sid="connect" type="bool">1</connect>
+                                        <layer sid="layer" type="string">5 16</layer>
+                                        <tip_x sid="tip_x" type="float">0.01499998</tip_x>
+                                        <tip_y sid="tip_y" type="float">0.02499997</tip_y>
+                                        <tip_z sid="tip_z" type="float">0</tip_z>
+                                      </technique>
+                                    </extra>
+                                  </node>
+                                  <extra>
+                                    <technique profile="blender">
+                                      <connect sid="connect" type="bool">1</connect>
+                                      <layer sid="layer" type="string">5 16</layer>
+                                    </technique>
+                                  </extra>
+                                </node>
+                                <extra>
+                                  <technique profile="blender">
+                                    <layer sid="layer" type="string">5 16</layer>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <extra>
+                                <technique profile="blender">
+                                  <connect sid="connect" type="bool">1</connect>
+                                  <layer sid="layer" type="string">2 16 17</layer>
+                                  <tip_x sid="tip_x" type="float">0</tip_x>
+                                  <tip_y sid="tip_y" type="float">0.06</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <extra>
+                              <technique profile="blender">
+                                <connect sid="connect" type="bool">1</connect>
+                                <layer sid="layer" type="string">2 16 17</layer>
+                              </technique>
+                            </extra>
+                          </node>
+                          <extra>
+                            <technique profile="blender">
+                              <connect sid="connect" type="bool">1</connect>
+                              <layer sid="layer" type="string">2 16 17</layer>
+                            </technique>
+                          </extra>
+                        </node>
+                        <extra>
+                          <technique profile="blender">
+                            <layer sid="layer" type="string">2 16 17</layer>
+                          </technique>
+                        </extra>
+                      </node>
+                      <node id="Armature_for_opensim_-_female_mCollarRight" name="mCollarRight" sid="mCollarRight" type="JOINT">
+                        <matrix sid="transform">1 0 0 -0.05145374 0 1 0 -0.072 1.49012e-8 0 1 0.1654009 0 0 0 1</matrix>
+                        <node id="Armature_for_opensim_-_female_R_CLAVICLE" name="R_CLAVICLE" sid="R_CLAVICLE" type="JOINT">
+                          <matrix sid="transform">1 0 0 0.02 0 1 0 0 0 0 1 0.01999986 0 0 0 1</matrix>
+                          <extra>
+                            <technique profile="blender">
+                              <layer sid="layer" type="string">15 16</layer>
+                              <tip_x sid="tip_x" type="float">0</tip_x>
+                              <tip_y sid="tip_y" type="float">-0.1</tip_y>
+                              <tip_z sid="tip_z" type="float">0</tip_z>
+                            </technique>
+                          </extra>
+                        </node>
+                        <node id="Armature_for_opensim_-_female_mShoulderRight" name="mShoulderRight" sid="mShoulderRight" type="JOINT">
+                          <matrix sid="transform">1 0 0 -7.23364e-15 0 1 0 -0.079418 0 0 1 -1.2136e-7 0 0 0 1</matrix>
+                          <node id="Armature_for_opensim_-_female_R_UPPER_ARM" name="R_UPPER_ARM" sid="R_UPPER_ARM" type="JOINT">
+                            <matrix sid="transform">1 0 -7.45058e-9 0 0 1 0 -0.1344 0 0 1 0.009999871 0 0 0 1</matrix>
+                            <extra>
+                              <technique profile="blender">
+                                <layer sid="layer" type="string">15 16</layer>
+                                <tip_x sid="tip_x" type="float">0</tip_x>
+                                <tip_y sid="tip_y" type="float">-0.1292438</tip_y>
+                                <tip_z sid="tip_z" type="float">-0.01431882</tip_z>
+                              </technique>
+                            </extra>
+                          </node>
+                          <node id="Armature_for_opensim_-_female_mElbowRight" name="mElbowRight" sid="mElbowRight" type="JOINT">
+                            <matrix sid="transform">1 0 0 0 0 1 0 -0.27776 0 0 1 -1.19209e-7 0 0 0 1</matrix>
+                            <node id="Armature_for_opensim_-_female_R_LOWER_ARM" name="R_LOWER_ARM" sid="R_LOWER_ARM" type="JOINT">
+                              <matrix sid="transform">0.9999999 0 3.72529e-9 0 0 1 0 -0.118 3.72529e-9 0 1 -1.19209e-7 0 0 0 1</matrix>
+                              <extra>
+                                <technique profile="blender">
+                                  <layer sid="layer" type="string">15 16</layer>
+                                  <tip_x sid="tip_x" type="float">0</tip_x>
+                                  <tip_y sid="tip_y" type="float">-0.0998106</tip_y>
+                                  <tip_z sid="tip_z" type="float">-0.006232261</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <node id="Armature_for_opensim_-_female_mWristRight" name="mWristRight" sid="mWristRight" type="JOINT">
+                              <matrix sid="transform">1 0 0 0 0 1 0 -0.2419 0 0 1 -1.19209e-7 0 0 0 1</matrix>
+                              <node id="Armature_for_opensim_-_female_R_HAND" name="R_HAND" sid="R_HAND" type="JOINT">
+                                <matrix sid="transform">1 -1.49488e-8 0 0.009999999 1.49012e-8 1 -9.31323e-10 -0.05000001 -3.72529e-9 2.30743e-11 1 -1.19209e-7 0 0 0 1</matrix>
+                                <extra>
+                                  <technique profile="blender">
+                                    <layer sid="layer" type="string">15 16</layer>
+                                    <tip_x sid="tip_x" type="float">0.01341199</tip_x>
+                                    <tip_y sid="tip_y" type="float">-0.04726964</tip_y>
+                                    <tip_z sid="tip_z" type="float">-0.003563046</tip_z>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <node id="Armature_for_opensim_-_female_mHandMiddle1Right" name="mHandMiddle1Right" sid="mHandMiddle1Right" type="JOINT">
+                                <matrix sid="transform">1 -5.58794e-9 1.49012e-8 0.013 1.86265e-9 1 1.49012e-8 -0.101 3.55271e-15 0 1 0.01499987 0 0 0 1</matrix>
+                                <node id="Armature_for_opensim_-_female_mHandMiddle2Right" name="mHandMiddle2Right" sid="mHandMiddle2Right" type="JOINT">
+                                  <matrix sid="transform">0.9999999 -1.11759e-8 4.47035e-8 -0.001000005 3.72529e-9 0.9999999 0 -0.03999996 1.49012e-8 0 0.9999999 -0.00600001 0 0 0 1</matrix>
+                                  <node id="Armature_for_opensim_-_female_mHandMiddle3Right" name="mHandMiddle3Right" sid="mHandMiddle3Right" type="JOINT">
+                                    <matrix sid="transform">1 -1.86265e-9 1.49012e-8 -9.99988e-4 1.86265e-9 1 1.49012e-8 -0.04899999 1.49012e-8 0 1 -0.008000085 0 0 0 1</matrix>
+                                    <extra>
+                                      <technique profile="blender">
+                                        <connect sid="connect" type="bool">1</connect>
+                                        <layer sid="layer" type="string">5 16</layer>
+                                        <tip_x sid="tip_x" type="float">-0.001999974</tip_x>
+                                        <tip_y sid="tip_y" type="float">-0.03299999</tip_y>
+                                        <tip_z sid="tip_z" type="float">-0.006000041</tip_z>
+                                      </technique>
+                                    </extra>
+                                  </node>
+                                  <extra>
+                                    <technique profile="blender">
+                                      <connect sid="connect" type="bool">1</connect>
+                                      <layer sid="layer" type="string">5 16</layer>
+                                    </technique>
+                                  </extra>
+                                </node>
+                                <extra>
+                                  <technique profile="blender">
+                                    <layer sid="layer" type="string">5 16</layer>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <node id="Armature_for_opensim_-_female_mHandIndex1Right" name="mHandIndex1Right" sid="mHandIndex1Right" type="JOINT">
+                                <matrix sid="transform">1 -3.35276e-8 0 0.038 2.6077e-8 1 -1.49012e-8 -0.097 2.98023e-8 1.49012e-8 1 0.01499987 0 0 0 1</matrix>
+                                <node id="Armature_for_opensim_-_female_mHandIndex2Right" name="mHandIndex2Right" sid="mHandIndex2Right" type="JOINT">
+                                  <matrix sid="transform">1 -6.70552e-8 -2.98023e-8 0.01700005 0 1 -4.47035e-8 -0.03600007 -1.49012e-8 1.49012e-8 1 -0.006000125 0 0 0 1</matrix>
+                                  <node id="Armature_for_opensim_-_female_mHandIndex3Right" name="mHandIndex3Right" sid="mHandIndex3Right" type="JOINT">
+                                    <matrix sid="transform">1 1.15484e-7 -1.49012e-8 0.01399997 0 0.9999999 -1.49012e-8 -0.03200001 0 -1.49012e-8 1 -0.006000047 0 0 0 1</matrix>
+                                    <extra>
+                                      <technique profile="blender">
+                                        <connect sid="connect" type="bool">1</connect>
+                                        <layer sid="layer" type="string">5 16</layer>
+                                        <tip_x sid="tip_x" type="float">0.01099997</tip_x>
+                                        <tip_y sid="tip_y" type="float">-0.02499997</tip_y>
+                                        <tip_z sid="tip_z" type="float">-0.003999948</tip_z>
+                                      </technique>
+                                    </extra>
+                                  </node>
+                                  <extra>
+                                    <technique profile="blender">
+                                      <connect sid="connect" type="bool">1</connect>
+                                      <layer sid="layer" type="string">5 16</layer>
+                                    </technique>
+                                  </extra>
+                                </node>
+                                <extra>
+                                  <technique profile="blender">
+                                    <layer sid="layer" type="string">5 16</layer>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <node id="Armature_for_opensim_-_female_mHandRing1Right" name="mHandRing1Right" sid="mHandRing1Right" type="JOINT">
+                                <matrix sid="transform">1 1.86264e-8 0 -0.009999997 -1.11759e-8 1 2.98023e-8 -0.09899998 3.55271e-15 -1.49012e-8 1 0.008999825 0 0 0 1</matrix>
+                                <node id="Armature_for_opensim_-_female_mHandRing2Right" name="mHandRing2Right" sid="mHandRing2Right" type="JOINT">
+                                  <matrix sid="transform">1 1.11759e-8 -1.49012e-8 -0.01299994 -1.11759e-8 1 2.98023e-8 -0.03799987 0 0 1 -0.00800011 0 0 0 1</matrix>
+                                  <node id="Armature_for_opensim_-_female_mHandRing3Right" name="mHandRing3Right" sid="mHandRing3Right" type="JOINT">
+                                    <matrix sid="transform">1 5.21541e-8 0 -0.01299996 3.35276e-8 1 -1.49012e-8 -0.03999997 0 2.98023e-8 1 -0.009000096 0 0 0 1</matrix>
+                                    <extra>
+                                      <technique profile="blender">
+                                        <connect sid="connect" type="bool">1</connect>
+                                        <layer sid="layer" type="string">5 16</layer>
+                                        <tip_x sid="tip_x" type="float">-0.00999999</tip_x>
+                                        <tip_y sid="tip_y" type="float">-0.02799999</tip_y>
+                                        <tip_z sid="tip_z" type="float">-0.006000041</tip_z>
+                                      </technique>
+                                    </extra>
+                                  </node>
+                                  <extra>
+                                    <technique profile="blender">
+                                      <connect sid="connect" type="bool">1</connect>
+                                      <layer sid="layer" type="string">5 16</layer>
+                                    </technique>
+                                  </extra>
+                                </node>
+                                <extra>
+                                  <technique profile="blender">
+                                    <layer sid="layer" type="string">5 16</layer>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <node id="Armature_for_opensim_-_female_mHandPinky1Right" name="mHandPinky1Right" sid="mHandPinky1Right" type="JOINT">
+                                <matrix sid="transform">0.9999999 -3.72529e-9 0 -0.031 -8.3819e-9 0.9999999 -7.45058e-9 -0.09499997 -1.49012e-8 0 1 0.002999902 0 0 0 1</matrix>
+                                <node id="Armature_for_opensim_-_female_mHandPinky2Right" name="mHandPinky2Right" sid="mHandPinky2Right" type="JOINT">
+                                  <matrix sid="transform">1 -9.31323e-10 0 -0.02399999 -7.45058e-9 1 -7.45058e-9 -0.02500004 0 -2.23517e-8 1 -0.005999954 0 0 0 1</matrix>
+                                  <extra>
+                                    <technique profile="blender">
+                                      <connect sid="connect" type="bool">1</connect>
+                                      <layer sid="layer" type="string">5 16</layer>
+                                      <tip_x sid="tip_x" type="float">-0.01499998</tip_x>
+                                      <tip_y sid="tip_y" type="float">-0.018</tip_y>
+                                      <tip_z sid="tip_z" type="float">-0.003999948</tip_z>
+                                    </technique>
+                                  </extra>
+                                </node>
+                                <extra>
+                                  <technique profile="blender">
+                                    <layer sid="layer" type="string">5 16</layer>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <node id="Armature_for_opensim_-_female_mHandThumb1Right" name="mHandThumb1Right" sid="mHandThumb1Right" type="JOINT">
+                                <matrix sid="transform">1 1.6531e-8 3.72529e-9 0.031 4.58676e-8 1 0 -0.02600002 3.72529e-9 -3.72529e-9 1 0.003999829 0 0 0 1</matrix>
+                                <node id="Armature_for_opensim_-_female_mHandThumb2Right" name="mHandThumb2Right" sid="mHandThumb2Right" type="JOINT">
+                                  <matrix sid="transform">1 1.6531e-8 0 0.02800005 -1.38534e-8 1 -3.72529e-9 -0.03200001 1.86265e-9 -1.11759e-8 1 -0.001000102 0 0 0 1</matrix>
+                                  <node id="Armature_for_opensim_-_female_mHandThumb3Right" name="mHandThumb3Right" sid="mHandThumb3Right" type="JOINT">
+                                    <matrix sid="transform">0.9999999 -1.95578e-8 0 0.02300001 1.00117e-8 1 0 -0.03100002 0 -7.45058e-9 1 -0.001000099 0 0 0 1</matrix>
+                                    <extra>
+                                      <technique profile="blender">
+                                        <connect sid="connect" type="bool">1</connect>
+                                        <layer sid="layer" type="string">5 16</layer>
+                                        <tip_x sid="tip_x" type="float">0.01499998</tip_x>
+                                        <tip_y sid="tip_y" type="float">-0.02499997</tip_y>
+                                        <tip_z sid="tip_z" type="float">0</tip_z>
+                                      </technique>
+                                    </extra>
+                                  </node>
+                                  <extra>
+                                    <technique profile="blender">
+                                      <connect sid="connect" type="bool">1</connect>
+                                      <layer sid="layer" type="string">5 16</layer>
+                                    </technique>
+                                  </extra>
+                                </node>
+                                <extra>
+                                  <technique profile="blender">
+                                    <layer sid="layer" type="string">5 16</layer>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <extra>
+                                <technique profile="blender">
+                                  <connect sid="connect" type="bool">1</connect>
+                                  <layer sid="layer" type="string">2 16 17</layer>
+                                  <tip_x sid="tip_x" type="float">0</tip_x>
+                                  <tip_y sid="tip_y" type="float">-0.06</tip_y>
+                                  <tip_z sid="tip_z" type="float">0</tip_z>
+                                </technique>
+                              </extra>
+                            </node>
+                            <extra>
+                              <technique profile="blender">
+                                <connect sid="connect" type="bool">1</connect>
+                                <layer sid="layer" type="string">2 16 17</layer>
+                              </technique>
+                            </extra>
+                          </node>
+                          <extra>
+                            <technique profile="blender">
+                              <connect sid="connect" type="bool">1</connect>
+                              <layer sid="layer" type="string">2 16 17</layer>
+                            </technique>
+                          </extra>
+                        </node>
+                        <extra>
+                          <technique profile="blender">
+                            <layer sid="layer" type="string">2 16 17</layer>
+                          </technique>
+                        </extra>
+                      </node>
+                      <node id="Armature_for_opensim_-_female_mWingsRoot" name="mWingsRoot" sid="mWingsRoot" type="JOINT">
+                        <matrix sid="transform">1 0 0 -0.04459602 0 1 0 0 0 0 1 4.9402e-6 0 0 0 1</matrix>
+                        <node id="Armature_for_opensim_-_female_mWing1Left" name="mWing1Left" sid="mWing1Left" type="JOINT">
+                          <matrix sid="transform">1 1.67638e-8 0 -0.09899999 1.49012e-8 1 1.49012e-8 0.095 1.49012e-8 7.45058e-9 1 0.181 0 0 0 1</matrix>
+                          <node id="Armature_for_opensim_-_female_mWing2Left" name="mWing2Left" sid="mWing2Left" type="JOINT">
+                            <matrix sid="transform">1 -7.45058e-9 0 -0.1680001 7.07805e-8 1 1.49012e-8 0.169 2.98023e-8 1.49012e-8 1 0.06700014 0 0 0 1</matrix>
+                            <node id="Armature_for_opensim_-_female_mWing3Left" name="mWing3Left" sid="mWing3Left" type="JOINT">
+                              <matrix sid="transform">1 -6.11033e-15 1.42109e-14 -0.181 2.58781e-15 1 -1.42109e-14 0.183 3.55271e-15 7.10543e-15 1 1.0128e-8 0 0 0 1</matrix>
+                              <node id="Armature_for_opensim_-_female_mWing4Left" name="mWing4Left" sid="mWing4Left" type="JOINT">
+                                <matrix sid="transform">1 -3.14994e-15 0 -0.171 2.98023e-8 1 0 0.173 3.55271e-15 -3.55271e-15 1 -1.5745e-9 0 0 0 1</matrix>
+                                <extra>
+                                  <technique profile="blender">
+                                    <connect sid="connect" type="bool">1</connect>
+                                    <layer sid="layer" type="string">12 16</layer>
+                                    <tip_x sid="tip_x" type="float">-0.1459999</tip_x>
+                                    <tip_y sid="tip_y" type="float">0.1319999</tip_y>
+                                    <tip_z sid="tip_z" type="float">0</tip_z>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <node id="Armature_for_opensim_-_female_mWing4FanLeft" name="mWing4FanLeft" sid="mWing4FanLeft" type="JOINT">
+                                <matrix sid="transform">0.9999999 -1.60136e-15 -2.97425e-8 -0.171 4.32024e-15 0.9999999 3.00903e-8 0.173 1.51236e-8 -2.16151e-8 0.9999999 -1.5745e-9 0 0 0 1</matrix>
+                                <extra>
+                                  <technique profile="blender">
+                                    <connect sid="connect" type="bool">1</connect>
+                                    <layer sid="layer" type="string">12 16</layer>
+                                    <tip_x sid="tip_x" type="float">-0.06800001</tip_x>
+                                    <tip_y sid="tip_y" type="float">0.06199997</tip_y>
+                                    <tip_z sid="tip_z" type="float">-0.159</tip_z>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <extra>
+                                <technique profile="blender">
+                                  <connect sid="connect" type="bool">1</connect>
+                                  <layer sid="layer" type="string">12 16</layer>
+                                </technique>
+                              </extra>
+                            </node>
+                            <extra>
+                              <technique profile="blender">
+                                <connect sid="connect" type="bool">1</connect>
+                                <layer sid="layer" type="string">12 16</layer>
+                              </technique>
+                            </extra>
+                          </node>
+                          <extra>
+                            <technique profile="blender">
+                              <layer sid="layer" type="string">12 16</layer>
+                            </technique>
+                          </extra>
+                        </node>
+                        <node id="Armature_for_opensim_-_female_mWing1Right" name="mWing1Right" sid="mWing1Right" type="JOINT">
+                          <matrix sid="transform">1 -1.67638e-8 0 -0.09899999 -1.49012e-8 1 -1.49012e-8 -0.095 1.49012e-8 -7.45058e-9 1 0.181 0 0 0 1</matrix>
+                          <node id="Armature_for_opensim_-_female_mWing2Right" name="mWing2Right" sid="mWing2Right" type="JOINT">
+                            <matrix sid="transform">1 7.45058e-9 0 -0.1680001 -7.07805e-8 1 -1.49012e-8 -0.169 2.98023e-8 -1.49012e-8 1 0.06700014 0 0 0 1</matrix>
+                            <node id="Armature_for_opensim_-_female_mWing3Right" name="mWing3Right" sid="mWing3Right" type="JOINT">
+                              <matrix sid="transform">1 6.11033e-15 1.42109e-14 -0.181 -2.58781e-15 1 1.42109e-14 -0.183 3.55271e-15 -7.10543e-15 1 1.0128e-8 0 0 0 1</matrix>
+                              <node id="Armature_for_opensim_-_female_mWing4Right" name="mWing4Right" sid="mWing4Right" type="JOINT">
+                                <matrix sid="transform">1 3.14994e-15 0 -0.171 -2.98023e-8 1 0 -0.173 3.55271e-15 3.55271e-15 1 -1.5745e-9 0 0 0 1</matrix>
+                                <extra>
+                                  <technique profile="blender">
+                                    <connect sid="connect" type="bool">1</connect>
+                                    <layer sid="layer" type="string">12 16</layer>
+                                    <tip_x sid="tip_x" type="float">-0.1459999</tip_x>
+                                    <tip_y sid="tip_y" type="float">-0.1319999</tip_y>
+                                    <tip_z sid="tip_z" type="float">0</tip_z>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <node id="Armature_for_opensim_-_female_mWing4FanRight" name="mWing4FanRight" sid="mWing4FanRight" type="JOINT">
+                                <matrix sid="transform">0.9999999 1.60136e-15 -2.97425e-8 -0.171 -4.32024e-15 0.9999999 -3.00903e-8 -0.173 1.51236e-8 2.16151e-8 0.9999999 -1.5745e-9 0 0 0 1</matrix>
+                                <extra>
+                                  <technique profile="blender">
+                                    <connect sid="connect" type="bool">1</connect>
+                                    <layer sid="layer" type="string">12 16</layer>
+                                    <tip_x sid="tip_x" type="float">-0.06800001</tip_x>
+                                    <tip_y sid="tip_y" type="float">-0.06199997</tip_y>
+                                    <tip_z sid="tip_z" type="float">-0.159</tip_z>
+                                  </technique>
+                                </extra>
+                              </node>
+                              <extra>
+                                <technique profile="blender">
+                                  <connect sid="connect" type="bool">1</connect>
+                                  <layer sid="layer" type="string">12 16</layer>
+                                </technique>
+                              </extra>
+                            </node>
+                            <extra>
+                              <technique profile="blender">
+                                <connect sid="connect" type="bool">1</connect>
+                                <layer sid="layer" type="string">12 16</layer>
+                              </technique>
+                            </extra>
+                          </node>
+                          <extra>
+                            <technique profile="blender">
+                              <layer sid="layer" type="string">12 16</layer>
+                            </technique>
+                          </extra>
+                        </node>
+                        <extra>
+                          <technique profile="blender">
+                            <layer sid="layer" type="string">12 16</layer>
+                            <tip_x sid="tip_x" type="float">-0.06099998</tip_x>
+                            <tip_y sid="tip_y" type="float">0</tip_y>
+                            <tip_z sid="tip_z" type="float">0</tip_z>
+                          </technique>
+                        </extra>
+                      </node>
+                      <extra>
+                        <technique profile="blender">
+                          <connect sid="connect" type="bool">1</connect>
+                          <layer sid="layer" type="string">0 16 17</layer>
+                        </technique>
+                      </extra>
+                    </node>
+                    <extra>
+                      <technique profile="blender">
+                        <connect sid="connect" type="bool">1</connect>
+                        <layer sid="layer" type="string">1 16</layer>
+                      </technique>
+                    </extra>
+                  </node>
+                  <extra>
+                    <technique profile="blender">
+                      <connect sid="connect" type="bool">1</connect>
+                      <layer sid="layer" type="string">1 16</layer>
+                    </technique>
+                  </extra>
+                </node>
+                <extra>
+                  <technique profile="blender">
+                    <connect sid="connect" type="bool">1</connect>
+                    <layer sid="layer" type="string">0 16 17</layer>
+                  </technique>
+                </extra>
+              </node>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">1 16</layer>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <connect sid="connect" type="bool">1</connect>
+                <layer sid="layer" type="string">1 16</layer>
+              </technique>
+            </extra>
+          </node>
+          <node id="Armature_for_opensim_-_female_mHipRight" name="mHipRight" sid="mHipRight" type="JOINT">
+            <matrix sid="transform">1 -7.45058e-9 1.86265e-9 0.03362 0 1 9.0804e-9 -0.128806 9.31323e-10 -5.82077e-9 1 -0.04109108 0 0 0 1</matrix>
+            <node id="Armature_for_opensim_-_female_R_UPPER_LEG" name="R_UPPER_LEG" sid="R_UPPER_LEG" type="JOINT">
+              <matrix sid="transform">1 -7.45058e-9 2.79397e-9 -0.02 0 1 9.0804e-9 0.05000002 0 1.86265e-9 1 -0.2200001 0 0 0 1</matrix>
+              <extra>
+                <technique profile="blender">
+                  <layer sid="layer" type="string">15 16</layer>
+                  <tip_x sid="tip_x" type="float">0</tip_x>
+                  <tip_y sid="tip_y" type="float">0</tip_y>
+                  <tip_z sid="tip_z" type="float">-0.1999999</tip_z>
+                </technique>
+              </extra>
+            </node>
+            <node id="Armature_for_opensim_-_female_mKneeRight" name="mKneeRight" sid="mKneeRight" type="JOINT">
+              <matrix sid="transform">1 -7.45058e-9 0 -7.80002e-4 -7.45058e-9 1 -5.82077e-9 0.04863501 2.79397e-9 -5.82077e-9 1 -0.4909221 0 0 0 1</matrix>
+              <node id="Armature_for_opensim_-_female_R_LOWER_LEG" name="R_LOWER_LEG" sid="R_LOWER_LEG" type="JOINT">
+                <matrix sid="transform">0.9999999 -4.44089e-16 0 -0.02 4.44089e-16 0.9999999 4.996e-16 1.81349e-9 0 0 0.9999999 -0.2000001 0 0 0 0.9999999</matrix>
+                <extra>
+                  <technique profile="blender">
+                    <layer sid="layer" type="string">15 16</layer>
+                    <tip_x sid="tip_x" type="float">-0.00999999</tip_x>
+                    <tip_y sid="tip_y" type="float">0</tip_y>
+                    <tip_z sid="tip_z" type="float">-0.15</tip_z>
+                  </technique>
+                </extra>
+              </node>
+              <node id="Armature_for_opensim_-_female_mAnkleRight" name="mAnkleRight" sid="mAnkleRight" type="JOINT">
+                <matrix sid="transform">0.9999999 -4.44089e-16 2.6077e-8 -0.028869 4.44089e-16 1 6.66134e-16 4.37147e-9 0 0 0.9999999 -0.4684941 0 0 0 1</matrix>
+                <node id="Armature_for_opensim_-_female_R_FOOT" name="R_FOOT" sid="R_FOOT" type="JOINT">
+                  <matrix sid="transform">1 -7.13829e-9 0 0.07700002 0 1 -2.98023e-8 0 -2.98023e-8 -1.20263e-8 0.9999999 -0.04099999 0 0 0 1</matrix>
+                  <extra>
+                    <technique profile="blender">
+                      <layer sid="layer" type="string">15 16</layer>
+                      <tip_x sid="tip_x" type="float">0.08313304</tip_x>
+                      <tip_y sid="tip_y" type="float">0</tip_y>
+                      <tip_z sid="tip_z" type="float">-0.04105967</tip_z>
+                    </technique>
+                  </extra>
+                </node>
+                <node id="Armature_for_opensim_-_female_mFootRight" name="mFootRight" sid="mFootRight" type="JOINT">
+                  <matrix sid="transform">1 3.48853e-10 0 0.111956 2.12674e-14 1 -1.77347e-15 0 2.98023e-8 1.46966e-10 1 -0.060637 0 0 0 1</matrix>
+                  <node id="Armature_for_opensim_-_female_mToeRight" name="mToeRight" sid="mToeRight" type="JOINT">
+                    <matrix sid="transform">1 1.40363e-14 0 0.109 2.17229e-14 1 0 3.72529e-9 0 0 1 -3.72364e-11 0 0 0 1</matrix>
+                    <extra>
+                      <technique profile="blender">
+                        <layer sid="layer" type="string">4 16</layer>
+                        <tip_x sid="tip_x" type="float">0.01999998</tip_x>
+                        <tip_y sid="tip_y" type="float">0</tip_y>
+                        <tip_z sid="tip_z" type="float">0</tip_z>
+                      </technique>
+                    </extra>
+                  </node>
+                  <extra>
+                    <technique profile="blender">
+                      <connect sid="connect" type="bool">1</connect>
+                      <layer sid="layer" type="string">4 16</layer>
+                      <tip_x sid="tip_x" type="float">0.105</tip_x>
+                      <tip_y sid="tip_y" type="float">-0.00999999</tip_y>
+                      <tip_z sid="tip_z" type="float">0</tip_z>
+                    </technique>
+                  </extra>
+                </node>
+                <extra>
+                  <technique profile="blender">
+                    <connect sid="connect" type="bool">1</connect>
+                    <layer sid="layer" type="string">3 16 17</layer>
+                  </technique>
+                </extra>
+              </node>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">3 16 17</layer>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">3 16 17</layer>
+              </technique>
+            </extra>
+          </node>
+          <node id="Armature_for_opensim_-_female_mHipLeft" name="mHipLeft" sid="mHipLeft" type="JOINT">
+            <matrix sid="transform">1 0 9.31323e-10 0.033757 0 1 3.31784e-9 0.126765 -9.31323e-10 3.25963e-9 1 -0.04100311 0 0 0 1</matrix>
+            <node id="Armature_for_opensim_-_female_L_UPPER_LEG" name="L_UPPER_LEG" sid="L_UPPER_LEG" type="JOINT">
+              <matrix sid="transform">1 7.45058e-9 1.86265e-9 -0.02 0 1 -4.13274e-9 -0.05000001 0 3.08501e-9 1 -0.2200001 0 0 0 1</matrix>
+              <extra>
+                <technique profile="blender">
+                  <layer sid="layer" type="string">15 16</layer>
+                  <tip_x sid="tip_x" type="float">0</tip_x>
+                  <tip_y sid="tip_y" type="float">0</tip_y>
+                  <tip_z sid="tip_z" type="float">-0.1999999</tip_z>
+                </technique>
+              </extra>
+            </node>
+            <node id="Armature_for_opensim_-_female_mKneeLeft" name="mKneeLeft" sid="mKneeLeft" type="JOINT">
+              <matrix sid="transform">1 0 -9.31323e-10 -8.86999e-4 1.49012e-8 1 1.07102e-8 -0.04556801 -2.79397e-9 -4.24916e-9 1 -0.4910531 0 0 0 1</matrix>
+              <node id="Armature_for_opensim_-_female_L_LOWER_LEG" name="L_LOWER_LEG" sid="L_LOWER_LEG" type="JOINT">
+                <matrix sid="transform">0.9999999 2.32831e-10 3.72529e-9 -0.02 0 1 2.91038e-11 2.77214e-9 3.72529e-9 0 1 -0.2 0 0 0 0.9999999</matrix>
+                <extra>
+                  <technique profile="blender">
+                    <layer sid="layer" type="string">15 16</layer>
+                    <tip_x sid="tip_x" type="float">-0.00999999</tip_x>
+                    <tip_y sid="tip_y" type="float">0</tip_y>
+                    <tip_z sid="tip_z" type="float">-0.15</tip_z>
+                  </technique>
+                </extra>
+              </node>
+              <node id="Armature_for_opensim_-_female_mAnkleLeft" name="mAnkleLeft" sid="mAnkleLeft" type="JOINT">
+                <matrix sid="transform">1 2.32831e-10 1.49012e-8 -0.028887 0 1 1.45519e-11 0.001377995 4.09782e-8 1.45519e-11 1 -0.468449 0 0 0 1</matrix>
+                <node id="Armature_for_opensim_-_female_L_FOOT" name="L_FOOT" sid="L_FOOT" type="JOINT">
+                  <matrix sid="transform">1 -9.7632e-10 0 0.077 0 1 -3.09284e-8 -7.79951e-13 0 2.26617e-9 1 -0.04100001 0 0 0 1</matrix>
+                  <extra>
+                    <technique profile="blender">
+                      <layer sid="layer" type="string">15 16</layer>
+                      <tip_x sid="tip_x" type="float">0.08313304</tip_x>
+                      <tip_y sid="tip_y" type="float">0</tip_y>
+                      <tip_z sid="tip_z" type="float">-0.04105967</tip_z>
+                    </technique>
+                  </extra>
+                </node>
+                <node id="Armature_for_opensim_-_female_mFootLeft" name="mFootLeft" sid="mFootLeft" type="JOINT">
+                  <matrix sid="transform">1 -1.46232e-8 0 0.111956 -4.56786e-9 1 -1.60273e-8 0 -2.98023e-8 -7.28987e-9 1 -0.06062 0 0 0 1</matrix>
+                  <node id="Armature_for_opensim_-_female_mToeLeft" name="mToeLeft" sid="mToeLeft" type="JOINT">
+                    <matrix sid="transform">1 -1.00117e-8 0 0.109 -3.95812e-9 1 -1.49012e-8 -5.23869e-9 -9.31323e-10 0 1 -7.68341e-9 0 0 0 1</matrix>
+                    <extra>
+                      <technique profile="blender">
+                        <layer sid="layer" type="string">4 16</layer>
+                        <tip_x sid="tip_x" type="float">0.01999998</tip_x>
+                        <tip_y sid="tip_y" type="float">0</tip_y>
+                        <tip_z sid="tip_z" type="float">0</tip_z>
+                      </technique>
+                    </extra>
+                  </node>
+                  <extra>
+                    <technique profile="blender">
+                      <connect sid="connect" type="bool">1</connect>
+                      <layer sid="layer" type="string">4 16</layer>
+                      <tip_x sid="tip_x" type="float">0.105</tip_x>
+                      <tip_y sid="tip_y" type="float">0.007999956</tip_y>
+                      <tip_z sid="tip_z" type="float">0.000999987</tip_z>
+                    </technique>
+                  </extra>
+                </node>
+                <extra>
+                  <technique profile="blender">
+                    <connect sid="connect" type="bool">1</connect>
+                    <layer sid="layer" type="string">3 16 17</layer>
+                  </technique>
+                </extra>
+              </node>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">3 16 17</layer>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">3 16 17</layer>
+              </technique>
+            </extra>
+          </node>
+          <node id="Armature_for_opensim_-_female_mTail1" name="mTail1" sid="mTail1" type="JOINT">
+            <matrix sid="transform">1 0 0 -0.116 0 1 0 0 0 0 1 0.04699492 0 0 0 1</matrix>
+            <node id="Armature_for_opensim_-_female_mTail2" name="mTail2" sid="mTail2" type="JOINT">
+              <matrix sid="transform">1 0 0 -0.197 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+              <node id="Armature_for_opensim_-_female_mTail3" name="mTail3" sid="mTail3" type="JOINT">
+                <matrix sid="transform">1 0 0 -0.168 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+                <node id="Armature_for_opensim_-_female_mTail4" name="mTail4" sid="mTail4" type="JOINT">
+                  <matrix sid="transform">1 0 0 -0.142 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+                  <node id="Armature_for_opensim_-_female_mTail5" name="mTail5" sid="mTail5" type="JOINT">
+                    <matrix sid="transform">1 0 0 -0.112 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+                    <node id="Armature_for_opensim_-_female_mTail6" name="mTail6" sid="mTail6" type="JOINT">
+                      <matrix sid="transform">1 0 0 -0.09399998 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+                      <extra>
+                        <technique profile="blender">
+                          <connect sid="connect" type="bool">1</connect>
+                          <layer sid="layer" type="string">13 16</layer>
+                          <tip_x sid="tip_x" type="float">-0.08899998</tip_x>
+                          <tip_y sid="tip_y" type="float">0</tip_y>
+                          <tip_z sid="tip_z" type="float">0</tip_z>
+                        </technique>
+                      </extra>
+                    </node>
+                    <extra>
+                      <technique profile="blender">
+                        <connect sid="connect" type="bool">1</connect>
+                        <layer sid="layer" type="string">13 16</layer>
+                      </technique>
+                    </extra>
+                  </node>
+                  <extra>
+                    <technique profile="blender">
+                      <connect sid="connect" type="bool">1</connect>
+                      <layer sid="layer" type="string">13 16</layer>
+                    </technique>
+                  </extra>
+                </node>
+                <extra>
+                  <technique profile="blender">
+                    <connect sid="connect" type="bool">1</connect>
+                    <layer sid="layer" type="string">13 16</layer>
+                  </technique>
+                </extra>
+              </node>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">13 16</layer>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">13 16</layer>
+              </technique>
+            </extra>
+          </node>
+          <node id="Armature_for_opensim_-_female_mGroin" name="mGroin" sid="mGroin" type="JOINT">
+            <matrix sid="transform">1 0 0 0.064 0 1 0 0 0 0 1 -0.09700513 0 0 0 1</matrix>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">4 16</layer>
+                <tip_x sid="tip_x" type="float">0.003999948</tip_x>
+                <tip_y sid="tip_y" type="float">0</tip_y>
+                <tip_z sid="tip_z" type="float">-0.06599998</tip_z>
+              </technique>
+            </extra>
+          </node>
+          <node id="Armature_for_opensim_-_female_mHindLimbsRoot" name="mHindLimbsRoot" sid="mHindLimbsRoot" type="JOINT">
+            <matrix sid="transform">1 0 0 -0.2 0 1 0 0 0 0 1 0.08399487 0 0 0 1</matrix>
+            <node id="Armature_for_opensim_-_female_mHindLimb1Left" name="mHindLimb1Left" sid="mHindLimb1Left" type="JOINT">
+              <matrix sid="transform">0.9999999 -7.45058e-9 0 -0.204 0 1 -8.17818e-9 0.129 0 -2.2701e-9 1 -0.125 0 0 0 1</matrix>
+              <node id="Armature_for_opensim_-_female_mHindLimb2Left" name="mHindLimb2Left" sid="mHindLimb2Left" type="JOINT">
+                <matrix sid="transform">1 -7.45058e-9 3.25963e-9 0.002000034 0 1 -7.82893e-9 -0.046 1.39698e-9 -2.32831e-9 1 -0.491 0 0 0 1</matrix>
+                <node id="Armature_for_opensim_-_female_mHindLimb3Left" name="mHindLimb3Left" sid="mHindLimb3Left" type="JOINT">
+                  <matrix sid="transform">1 -9.31323e-10 0 -0.03 -9.31323e-10 1 -2.91038e-10 -0.002999997 0 2.91038e-11 1 -0.4679999 0 0 0 1</matrix>
+                  <node id="Armature_for_opensim_-_female_mHindLimb4Left" name="mHindLimb4Left" sid="mHindLimb4Left" type="JOINT">
+                    <matrix sid="transform">0.9999999 8.18856e-12 0 0.112 -4.59347e-9 1 7.10543e-15 -1.18776e-10 0 6.09792e-9 1 -0.061 0 0 0 1</matrix>
+                    <extra>
+                      <technique profile="blender">
+                        <connect sid="connect" type="bool">1</connect>
+                        <layer sid="layer" type="string">14 16</layer>
+                        <tip_x sid="tip_x" type="float">0.105</tip_x>
+                        <tip_y sid="tip_y" type="float">0.007999956</tip_y>
+                        <tip_z sid="tip_z" type="float">0</tip_z>
+                      </technique>
+                    </extra>
+                  </node>
+                  <extra>
+                    <technique profile="blender">
+                      <connect sid="connect" type="bool">1</connect>
+                      <layer sid="layer" type="string">14 16</layer>
+                    </technique>
+                  </extra>
+                </node>
+                <extra>
+                  <technique profile="blender">
+                    <connect sid="connect" type="bool">1</connect>
+                    <layer sid="layer" type="string">14 16</layer>
+                  </technique>
+                </extra>
+              </node>
+              <extra>
+                <technique profile="blender">
+                  <layer sid="layer" type="string">14 16</layer>
+                </technique>
+              </extra>
+            </node>
+            <node id="Armature_for_opensim_-_female_mHindLimb1Right" name="mHindLimb1Right" sid="mHindLimb1Right" type="JOINT">
+              <matrix sid="transform">0.9999999 7.45058e-9 0 -0.204 0 1 8.17818e-9 -0.129 0 2.2701e-9 1 -0.125 0 0 0 1</matrix>
+              <node id="Armature_for_opensim_-_female_mHindLimb2Right" name="mHindLimb2Right" sid="mHindLimb2Right" type="JOINT">
+                <matrix sid="transform">1 7.45058e-9 3.25963e-9 0.002000034 0 1 7.82893e-9 0.046 1.39698e-9 2.32831e-9 1 -0.491 0 0 0 1</matrix>
+                <node id="Armature_for_opensim_-_female_mHindLimb3Right" name="mHindLimb3Right" sid="mHindLimb3Right" type="JOINT">
+                  <matrix sid="transform">1 9.31323e-10 0 -0.03 9.31323e-10 1 2.91038e-10 0.002999997 0 -2.91038e-11 1 -0.4679999 0 0 0 1</matrix>
+                  <node id="Armature_for_opensim_-_female_mHindLimb4Right" name="mHindLimb4Right" sid="mHindLimb4Right" type="JOINT">
+                    <matrix sid="transform">0.9999999 -8.18856e-12 0 0.112 4.59347e-9 1 -7.10543e-15 1.18776e-10 0 -6.09792e-9 1 -0.061 0 0 0 1</matrix>
+                    <extra>
+                      <technique profile="blender">
+                        <connect sid="connect" type="bool">1</connect>
+                        <layer sid="layer" type="string">14 16</layer>
+                        <tip_x sid="tip_x" type="float">0.105</tip_x>
+                        <tip_y sid="tip_y" type="float">-0.007999956</tip_y>
+                        <tip_z sid="tip_z" type="float">0</tip_z>
+                      </technique>
+                    </extra>
+                  </node>
+                  <extra>
+                    <technique profile="blender">
+                      <connect sid="connect" type="bool">1</connect>
+                      <layer sid="layer" type="string">14 16</layer>
+                    </technique>
+                  </extra>
+                </node>
+                <extra>
+                  <technique profile="blender">
+                    <connect sid="connect" type="bool">1</connect>
+                    <layer sid="layer" type="string">14 16</layer>
+                  </technique>
+                </extra>
+              </node>
+              <extra>
+                <technique profile="blender">
+                  <layer sid="layer" type="string">14 16</layer>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">14 16</layer>
+                <tip_x sid="tip_x" type="float">-0.2039999</tip_x>
+                <tip_y sid="tip_y" type="float">0</tip_y>
+                <tip_z sid="tip_z" type="float">0</tip_z>
+              </technique>
+            </extra>
+          </node>
+          <extra>
+            <technique profile="blender">
+              <layer sid="layer" type="string">0 16 17</layer>
+            </technique>
+          </extra>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
