@@ -1,0 +1,71 @@
+https://community.secondlife.com/forums/topic/337070-importing-a-rigged-mesh-from-maya-to-blender/
+
+https://www.khronos.org/collada/wiki/Skinning
+https://community.khronos.org/t/inverse-bind-pose-matrix-or-transformation-matrix-of-joint/6265/3
+skin-bind_poses-array
+you should get an identity matrix if you do joint-matrix * bind-matrix. 
+
+https://developer.blender.org/T50412
+    The Restpose is where all pose matrices are neutral have no influence on the skeleton and the meshes
+    The Bindpose is an arbitrary pose that is treated as if it where the restpose.
+But Blender does not have a bind pose, or better said, In Blender the Bindpose and the Restpose are always identical.
+
+
+
+https://docs.unity3d.com/ScriptReference/Mesh-bindposes.html
+The bind pose is the inverse of the transformation matrix of the bone, when the bone is in the bind pose.
+
+https://www.gamedev.net/forums/topic.asp?topic_id=562776&whichpage=1&#3607410
+Animated COLLADA files provide the following info Skin - bind shape matrix - list of joint/weight index pairs - list of weights - list of joint nodes used during skinning - list of inverse bind matrices, one per joint and the animation channel (track) data. 
+
+https://veeenu.github.io/2014/05/09/implementing-skeletal-animation.html
+for(bone in bones) 
+  localMatrix = calculateMatrix(bone.rotation, bone.position)
+  if(bone is root)
+    bone.worldMatrix = localMatrix
+  else
+    bone.worldMatrix = bone.parent.worldMatrix * localMatrix
+  bone.inverseBindpose = invert(bone.worldMatrix)
+  bone.offsetMatrix = bone.inverseBindpose * bone.worldMatrix
+
+https://community.secondlife.com/forums/topic/350794-collada-and-blender-leaf-bones-differences-deform-bones-and-rest-pose/
+
+Blender manual:
+The new option Keep Bind Info checks each bone for having two arrays:
+    rest_mat – an array of 16 floats which represent the bone’s original rest-pose matrix.
+    bind_mat – an array of 16 floats which represent the bone’s original bind-pose matrix.
+    Those two arrays can later be used when you want to export the rig again and be sure the original rest pose/bind pose combination must be used.
+
+
+https://developer.blender.org/T50412      2017
+(Gaia Clary)
+Back in 2.70 this issue was solved in a very ugly way:
+
+we added a custom transformation to each bone which contains a scale, a rotation and a translation:
+
+restpose_scale_x (default = 1.0)
+restpose_scale_y (default = 1.0)
+restpose_scale_z (default = 1.0)
+
+restpose_rot_x (default = 0.0)
+restpose_rot_y (default = 0.0)
+restpose_rot_z (default = 0.0)
+
+restpose_loc_x (default = 0.0)
+restpose_loc_y (default = 0.0)
+restpose_loc_z (default = 0.0)
+...
+So i proceed as follows now:
+
+    I add the code for creating the custom properties to the Collada importer
+    I add an option to the importer to "import bind pose info"
+    I also add a new option to the exporter "use custom bind pose"
+
+
+https://wiki.blender.org/wiki/Dev:Ref/Release_Notes/2.79/Add-ons
+
+https://community.secondlife.com/forums/topic/324977-liquid-democracy-new-free-and-open-source-kit-prototype-to-rig-fitted-mesh/?tab=comments#comment-1092118
+ 
+https://lists.blender.org/pipermail/bf-blender-cvs/2016-May/086767.html
+
+
