@@ -50,3 +50,7 @@ https://community.secondlife.com/forums/topic/337070-importing-a-rigged-mesh-fro
 
 https://community.secondlife.com/forums/topic/350794-collada-and-blender-leaf-bones-differences-deform-bones-and-rest-pose/
 
+https://community.secondlife.com/forums/topic/440243-avatar-animation-along-wrong-axes/
+
+https://community.secondlife.com/forums/topic/430911-bones-names/
+
