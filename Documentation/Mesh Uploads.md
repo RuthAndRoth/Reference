@@ -38,6 +38,7 @@ The process for uploading rigged mesh (avatars) starts in the
     See the tables for each specific body for the actual values used.
     [This SL forum thread](https://community.secondlife.com/forums/topic/419469-rigged-mesh-lod-bug/?do=findComment&comment=1727840)
     has a recent-ish discussion around what is happening.
+    LOD suggestions and recommendations at https://serie-ous.style/ss/ruth/mesh/roth
   * **Generate Normals**: do not check this box
 * **Physics** tab
   * **Step 1**: Use file [PhysicsTriPlane.dae](https://github.com/RuthAndRoth/Reference/blob/master/Mesh/Physics%20Models/PhysicsTriPlane.dae)
