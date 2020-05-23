@@ -56,7 +56,7 @@ After uploading:
 
 * Set all mesh uploads to full permissions (leave no-transfer for pre-release mesh only)
 * Attach to an appropriate place to set the default attach point:
-  * body (full and torso+hands+feet): spine
+  * body (full, body and  and headless (body+hands+feet): avatar center
   * head: chin (leave skull for attached hair)
   * hands: left upper arm
   * feet: left lower leg
