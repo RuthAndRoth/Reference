@@ -1,0 +1,21 @@
+---- Maya Bento Aimation Instructions ---
+1.  To animate the entire avatar in 3D space move and key the humanIK1 . 
+2.  You can find the "humanIK1" in the Outliner.
+3.  Before you export your BVH file you must have the mPelvis bone selected.
+
+(NOTE: The Bento Animation Skeleton has extra bones that are not apart
+of the normal SL skeleton.  These bones have the word "Effector" in
+their names.  They are needed so the BVH exporter can export properly.
+DO NOT rig to them.)
+
+(NOTE: The Bento Animation Skeleton Maya must be set to Y up Axis.  If
+you open the "Maya Bento Testing Animation Skeleton.ma" and it is on
+its side you have Z up Axis set and need to set Y up in your
+"Preferences".)
+
+(NOTE: DO NOT IMPORT "Maya Bento Testing Animation Skeleton.ma" into
+an already open scene.  Importing any file that contains a skeleton
+always changes the names of all the bones in that file by adding the
+name of the imported file to the beginning of each bone name.  The
+wrong bone names will cause the SL upload window to reject the BVH
+file.)
