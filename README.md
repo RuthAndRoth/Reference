@@ -19,7 +19,7 @@ Many of these are referenced in the
   * Rigging Fitted Mesh skeletons: http://wiki.secondlife.com/wiki/Mesh/Rigging_Fitted_Mesh
   * Improved Second Life avatar meshes: http://web.archive.org/web/20120711023730/http://abbloch.com/slAvatars_OBJ_Fixed/
 
-* Mesh: created as part of the work on the RuthAndRoth Project, includes avatar model armatures and bones. Other avatar-related reference files can be found i the RuthAndRoth/R3 repository.
+* Mesh: created as part of the work on the RuthAndRoth Project, includes avatar model armatures and bones. Other avatar-related reference files can be found in the RuthAndRoth/R3 repository.
 
 * Textures: created as part of the work on the RuthAndRoth Project
 
