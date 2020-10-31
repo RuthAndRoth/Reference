@@ -1,0 +1,3 @@
+Armature to add to a Blender avatar mesh... 
+
+See Export_ImportRiggedMeshBlender.md
