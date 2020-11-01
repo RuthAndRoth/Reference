@@ -1,4 +1,4 @@
-After using this armature, to export from Blender, make sure your armature and all its meshes are oriented to face +Y. Apply all transformations in Object mode. Check it a couple of times - parented objects sometimes follot the Object > Apply and sometimes don't, and I haven't figured out the right workflow.
+After using the avatar_skeleton.xml(FemaleArmature).blend armature, to export from Blender, make sure your armature and all its meshes are oriented to face +Y. Apply all transformations in Object mode. Check it a couple of times - parented objects sometimes follow the Object > Apply and sometimes don't, and I haven't figured out the right workflow.
 
 Then put the armature into edit mode, select all, clear bone roll.
 
