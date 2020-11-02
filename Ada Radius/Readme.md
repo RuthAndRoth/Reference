@@ -2,6 +2,7 @@ Please see Export_ImportRiggedMeshBlender.md for notes on using these armatures.
 
 ### Armatures
  * avatar_skeleton.xml.blend
+ 
  Ada Radius' armature built from the data in avatar_skeleton.xml - use for tinies, giants, non-humans.
 avatar_skeleton.xmo, is the viewer file, Character folder, that defines the inworld armature. It has internal errors itself, and the Blender file armature has some compromises to adjust to them. Left-right asymetries and bone head to connected bone tail inconsistencies. 
  
