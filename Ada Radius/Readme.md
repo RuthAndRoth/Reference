@@ -1,16 +1,10 @@
-### Armature to add to a Ruth2 Blender avatar mesh... 
+Please see Export_ImportRiggedMeshBlender.md for notes on using these armatures. 
 
- * For making Ruth2 'fitted' clothing, e.g. weighting to the volume bones, use avatar_skeleton_customproperties.blend
- * If using the Ruth2 mesh for something else, such as shrinking to make a tiny human, then use avatar_skeleton.xml(FemaleArmature).blend and change the names of the vertex groups to the equivalent mBones.
-
-### Armature to add to a Ruth2 Blender avatar mesh
-
-* male_2016_08_05Rebuilt.blend
+### Armatures
+ * avatar_skeleton.xml.blend: Ada Radius' armature built from the data in avatar_skeleton.xml - use for tinies, giants, non-humans 
+ * avatar_skeleton_customproperties.blend: the armature above, with the addition of bone custom properties for the "fitted bones", values also taken from avatar_skeleton.xml, with python language from Blender dev blog. Use for mesh body or clothing attachments rigged to the "fitted" bones
+* male_2016_08_05Rebuilt.blend  armature built from the SLWiki Bento download, repaired with values from avatar_skeleton.xml: can be used for mesh sized to the default male. (though the first two armatures on this list will also work fine for any sized mesh - the only differences are the bone zed values)
 
 ### Other Resources
-
-Simple sample avatar mesh: SLAvatar.blend
-
-Guidance notes: Export_ImportRiggedMeshBlender.md
-
-The opensim_armatures.ods spreadsheet is an analysis by Ada Radius of Linden Lab's avatar_skeleton.xml cross-referenced to SLWiki information (some of which is wrong), the calculations converting the Maya values to Blender, and notes on exporting from Blender.
+SLAvatar.blend: replica of the inworld default avatar mesh 
+opensim_armatures.ods spreadsheet: Ada Radius' analysis of avatar_skeleton.xml, which is found in the viewer Character folder. Cross-referenced to SLWiki information (some of which is wrong), calculations converting the Maya values to Blender, and notes on exporting from Blender.
