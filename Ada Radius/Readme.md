@@ -1,11 +1,13 @@
-## Armature to add to a Ruth2 Blender avatar mesh... 
+### Armature to add to a Ruth2 Blender avatar mesh... 
 
  * For making Ruth2 'fitted' clothing, e.g. weighting to the volume bones, use avatar_skeleton_customproperties.blend
  * If using the Ruth2 mesh for something else, such as shrinking to make a tiny human, then use avatar_skeleton.xml(FemaleArmature).blend and change the names of the vertex groups to the equivalent mBones.
 
-## Armature to add to a Ruth2 Blender avatar mesh
+### Armature to add to a Ruth2 Blender avatar mesh
 
 * male_2016_08_05Rebuilt.blend
+
+### Other Resources
 
 Simple sample avatar mesh: SLAvatar.blend
 
