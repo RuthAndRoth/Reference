@@ -7,6 +7,8 @@ Linden Lab and individual creators.
 Many of these are referenced in the
 [Second Life Wiki](http://wiki.secondlife.com/wiki/Clothing_Tutorials)
 
+* Ada Radius - Avatar Armatures
+
 * Avatar Databank: from CCC Cybernetics http://www.ccccybernetics.com/avatar_databank/
 
 * CMFF Templates: http://static-secondlife-com.s3.amazonaws.com/templates/CMFF_Template_Set.zip

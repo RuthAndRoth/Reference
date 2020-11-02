@@ -1,15 +1,22 @@
-After using this armature, to export from Blender, make sure your armature and all its meshes are oriented to face +Y. Apply all transformations in Object mode. Check it a couple of times - parented objects sometimes follot the Object > Apply and sometimes don't, and I haven't figured out the right workflow.
+Exporting from Blender to import to OpenSim. This may work for Second Life as well but I haven't tested it.
+
+While working in Blender, it's better to orient your armature and mesh to face front (+Y), while you are in Front Orthographic view. As Blender symmetry defaults along the X axis. If you don't know how to do that yet, search for and watch tutorials on applying rotations and other tranforms to objects, and the relationship between object and mesh. I won't list links here - Blender changes too fast. 
+
+To export from Blender, however, make sure your armature and all its meshes are oriented to face +X - facing to your right in Front Orthographic view. Apply all transformations in Object mode. Check it a couple of times - parented objects follow the parent while rotating, but the rotation needs to be applied to the child objects as well as the parent armature. If you forget that and rotate a child object before rotating the parent, you may need to fix it. 
 
 Then put the armature into edit mode, select all, clear bone roll.
 
-Make sure your mesh is clean. Problems here can cause viewer import failures. There may be more that's needed on this list; these are the ones I know about:  
-In the properties editor, 
+Make sure your mesh is clean. Problems here can cause viewer import failures. These failures may be silent, or there may be an error message, which may or may not have anything to do with the actual error. 
+There may be more items needed on these lists; these are the ones I know about:  
+
+Properties Editor: 
 Object properties:
 Relations: make sure your mesh is parented to the right armature
 Delete Custom Properties, if any (if your mesh came from other software or used plugins, there might be junk there)
 
-Modifiers
+Modifier Properties
 Make sure there is only one Armature modifier, and that it's pointing to the right armature
+Other modifiers may or may not work as they're applied on export
 
 Object Data Properties
 Delete unused vertex groups
@@ -24,12 +31,11 @@ If you made LOD or physics versions, each one must have the same material as the
 No more than 8 materials per mesh
 No more than 21844 tris per material
 
-
 Then Export - Collada, with the following selections in the export options (Gear icon):
 
 Operator Preset: SL+Open Sim rigged 
 and make sure these checkboxes are ticked:
-Main tab
+Main tab:
 Selection Only
 Include Armatures
 Global Orientation Apply
@@ -39,19 +45,19 @@ Texture options
 Copy
 UV, only selected
 
-Geom tab
+Geom tab:
 Triangulate 
 Apply modifiers Viewport
 Transform Matrix
 
-Armature tab
+Armature tab:
 Deform Bones Only
 Export to SL/Open Sim
 
-Anim tab
+Anim tab:
 Include Animations (I don't know what this does)
 
-Extras
+Extras:
 Use Blender Profile
 Sort by Object Name
 If you edited the armature, for example for a tiny or non-human, then:
@@ -61,5 +67,9 @@ Keep Bind Info
 Import:
 Include skin weight
 
-If your armature is resized (giants and tinies) or non-human: Include joint positions
+If your armature is resized (giants, tinies, non-humans): Include joint positions
+If you don't want your mesh to use the Appearance sliders at all: Lock scale if joint position defined
+
+last updated 2020-11-02 Ad Radius
+Please contact me if you see something that needs improvemen or has gone out of date! This is a work in progress. 
 
