@@ -11,7 +11,7 @@ Please see Export_ImportRiggedMeshBlender.md for notes on using these armatures.
 
 * SLAvatar.blend - replica of the inworld default avatar mesh, based on SLWiki downloads. 
 
-* opensim_armatures.ods - spreadshheet analysis of avatar_skeleton.xml, which is found in the viewer Character folder. Cross-referenced to SLWiki information (some of which is wrong), calculations converting the Maya values to Blender, and notes on exporting from Blender.
+* opensim_armatures.ods - spreadsheet analysis of avatar_skeleton.xml, which is found in the viewer Character folder. Cross-referenced to SLWiki information (some of which is wrong), calculations converting the Maya values to Blender, and notes on exporting from Blender.
 
 * UVmaps - PNG images.
 
