@@ -19,7 +19,4 @@ angel_2016_08_05
 bvh files
 http://wiki.secondlife.com/wiki/Internal_Animations
 
-The blend files also contain, by permission, Robin Wood UV templates https://www.robinwood.com
-
-and templates derived from the Linden Lab avatar UV maps. 
 
