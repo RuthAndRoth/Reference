@@ -67,7 +67,7 @@ Keep Bind Info
 Import:
 Include skin weight
 
-If your armature is resized (giants, tinies, non-humans): Include joint positions
-If you don't want your mesh to use the Appearance sliders at all: Lock scale if joint position defined
+If your armature is resized (giants, tinies, non-humans): Include joint positions.
+If you don't want your mesh to use the Appearance sliders at all: Lock scale if joint position defined.
 
-Last updated 2020-11-02 Ada Radius. Please contact me if you see something that needs improvemen or has gone out of date! This is a work in progress. 
+Last updated 2020-11-02 Ada Radius. Please contact me if you see something that needs improvement or has gone out of date! This is a work in progress. 
