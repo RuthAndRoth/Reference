@@ -60,7 +60,7 @@ Include Animations (I don't know what this does)
 Extras:
 Use Blender Profile
 Sort by Object Name
-If you edited the armature, for example for a tiny or non-human, then:
+If you edited the armature, for example for a tiny or non-human, OR are exported mesh rigged to volume bones ('fitted' mesh then:
 Keep Bind Info
 
 
