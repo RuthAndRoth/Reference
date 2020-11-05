@@ -9,65 +9,64 @@ Then put the armature into edit mode, select all, clear bone roll.
 Make sure your mesh is clean. Problems here can cause viewer import failures. These failures may be silent, or there may be an error message, which may or may not have anything to do with the actual error. 
 There may be more items needed on these lists; these are the ones I know about:  
 
-Properties Editor: 
+### Properties Editor: 
+
 Object properties:
-Relations: make sure your mesh is parented to the right armature
-Delete Custom Properties, if any (if your mesh came from other software or used plugins, there might be junk there)
+  * Relations: make sure your mesh is parented to the right armature
+  * Delete Custom Properties, if any (if your mesh came from other software or used plugins, there might be junk there)
 
-Modifier Properties
-Make sure there is only one Armature modifier, and that it's pointing to the right armature
-Other modifiers may or may not work as they're applied on export
+Modifier Properties:
+  * Make sure there is only one Armature modifier, and that it's pointing to the right armature
+  * Other modifiers may or may not work as they're applied on export
 
-Object Data Properties
-Delete unused vertex groups
-Max deform bone vertex groups per mesh: 110
-Geometry: Clear data - sculpt mask, custom split normals, etc.
+Object Data Properties:
+  * Delete unused vertex groups
+  * Max deform bone vertex groups per mesh: 110
+  * Geometry: Clear data - sculpt mask, custom split normals, etc.
 
-Material properties:
-Delete unused materials from each mesh
-Rename materials: no spaces nor special characters. 
-Make sure all verts in the mesh are assigned to a material
-If you made LOD or physics versions, each one must have the same material as the high LOD or physics version. 
-No more than 8 materials per mesh
-No more than 21844 tris per material
+Material Properties:
+  * Delete unused materials from each mesh
+  * Rename materials: no spaces nor special characters. 
+  * Make sure all verts in the mesh are assigned to a material
+  * If you made LOD or physics versions, each one must have the same material as the high LOD or physics version. 
+  * No more than 8 materials per mesh
+  * No more than 21844 tris per material
 
-Then Export - Collada, with the following selections in the export options (Gear icon):
-
-Operator Preset: SL+Open Sim rigged 
-and make sure these checkboxes are ticked:
-Main tab:
-Selection Only
-Include Armatures
-Global Orientation Apply
-Forward Axis Y
-Up Axis Z
-Texture options
-Copy
-UV, only selected
+Export > Collada, with the following selections in the export options (Gear icon):
+  * Operator Preset: SL+Open Sim rigged 
+  * and make sure these checkboxes are ticked:
+  * Main tab:
+  * Selection Only
+  * Include Armatures
+  * Global Orientation Apply
+  * Forward Axis Y
+  * Up Axis Z
+  * Texture options
+  * Copy UV, only selected
 
 Geom tab:
-Triangulate 
-Apply modifiers Viewport
-Transform Matrix
+  * Triangulate 
+  * Apply modifiers Viewport
+  * Transform Matrix
 
 Armature tab:
-Deform Bones Only
-Export to SL/Open Sim
+  * Deform Bones Only
+  * Export to SL/Open Sim
 
 Anim tab:
 Include Animations (I don't know what this does)
 
 Extras:
-Use Blender Profile
-Sort by Object Name
-If you edited the armature, for example for a tiny or non-human, OR are exported mesh rigged to volume bones ('fitted' mesh then:
+  * Use Blender Profile
+  * Sort by Object Name
+  * If you edited the armature, for example for a tiny or non-human, OR are exporting mesh rigged to volume bones ('fitted' mesh) then:
 Keep Bind Info
 
+Export Collada to chosen .dae filename
 
-Import:
-Include skin weight
+OpenSim/Second Life Mesh Uploader:
+  * Include skin weight
+  * If your armature is resized (giants, tinies, non-humans): Include joint positions.
+  * If you don't want your mesh to use the Appearance sliders at all: Lock scale if joint position defined.
 
-If your armature is resized (giants, tinies, non-humans): Include joint positions.
-If you don't want your mesh to use the Appearance sliders at all: Lock scale if joint position defined.
-
-Last updated 2020-11-02 Ada Radius. Please contact me if you see something that needs improvement or has gone out of date! This is a work in progress. 
+Last updated 2020-11-05 Ada Radius. Please contact me if you see something that needs improvement or has gone out of date! This is a work in progress. 
