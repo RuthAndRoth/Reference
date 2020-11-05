@@ -44,7 +44,8 @@ Main tab:
   * Forward Axis Y
   * Up Axis Z
   * Texture options
-  * Copy UV, only selected
+  * Copy
+  * UV - Only Selected Map
 
 Geom(etry) tab:
   * Triangulate 
