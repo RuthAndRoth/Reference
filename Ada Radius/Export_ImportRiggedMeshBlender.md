@@ -2,11 +2,12 @@ Exporting from Blender to import to OpenSim. This may work for Second Life as we
 
 While working in Blender, it's better to orient your armature and mesh to face front (+Y), while you are in Front Orthographic view. As Blender symmetry defaults along the X axis. If you don't know how to do that yet, search for and watch tutorials on applying rotations and other tranforms to objects, and the relationship between object and mesh. I won't list links here - Blender changes too fast. 
 
-To export from Blender, however, make sure your armature and all its meshes are oriented to face +X - facing to your right in Front Orthographic view. Apply all transformations in Object mode. Check it a couple of times - parented objects follow the parent while rotating, but the rotation needs to be applied to the child objects as well as the parent armature. If you forget that and rotate a child object before rotating the parent, you may need to fix it. 
+To export from Blender, however, make sure your armature and all its meshes are oriented to face +X - facing to your right in Front Orthographic view. Apply all transformations in Object mode. Check it a couple of times - parented objects follow the parent while rotating, but the rotation needs to be "applied" to the child objects (Object > Apply > All Transforms) as well as the parent armature. If you forget that and rotate a child object before rotating the parent, you may need to fix it. 
 
 Then put the armature into edit mode, select all, clear bone roll.
 
 Make sure your mesh is clean. Problems here can cause viewer import failures. These failures may be silent, or there may be an error message, which may or may not have anything to do with the actual error. 
+
 There may be more items needed on these lists; these are the ones I know about:  
 
 ### Properties Editor: 
@@ -54,7 +55,7 @@ Armature tab:
   * Export to SL/Open Sim
 
 Anim tab:
-Include Animations (I don't know what this does)
+  * Include Animations (I don't know what this does)
 
 Extras:
   * Use Blender Profile
