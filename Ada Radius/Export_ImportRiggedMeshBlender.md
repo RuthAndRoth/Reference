@@ -12,7 +12,7 @@ There may be more items needed on these lists; these are the ones I know about:
 
 ### Properties Editor: 
 
-Object properties:
+Object Properties:
   * Relations: make sure your mesh is parented to the right armature
   * Delete Custom Properties, if any (if your mesh came from other software or used plugins, there might be junk there)
 
@@ -35,8 +35,9 @@ Material Properties:
 
 Export > Collada, with the following selections in the export options (Gear icon):
   * Operator Preset: SL+Open Sim rigged 
-  * and make sure these checkboxes are ticked:
-  * Main tab:
+  * and make sure the following checkboxes are ticked
+  
+Main tab:
   * Selection Only
   * Include Armatures
   * Global Orientation Apply
@@ -45,23 +46,22 @@ Export > Collada, with the following selections in the export options (Gear icon
   * Texture options
   * Copy UV, only selected
 
-Geom tab:
+Geom(etry) tab:
   * Triangulate 
   * Apply modifiers Viewport
   * Transform Matrix
 
-Armature tab:
+Arm(ature) tab:
   * Deform Bones Only
   * Export to SL/Open Sim
 
-Anim tab:
+Anim(imastion) tab:
   * Include Animations (I don't know what this does)
 
-Extras:
+Extra tab:
   * Use Blender Profile
   * Sort by Object Name
-  * If you edited the armature, for example for a tiny or non-human, OR are exporting mesh rigged to volume bones ('fitted' mesh) then:
-Keep Bind Info
+  * If you edited the armature, for example for a tiny or non-human, OR are exporting mesh rigged to volume bones ('fitted' mesh) then check: Keep Bind Info
 
 Export Collada to chosen .dae filename
 
