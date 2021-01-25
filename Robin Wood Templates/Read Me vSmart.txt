@@ -1,0 +1,51 @@
+Hi!
+
+These files are layered Photoshop files, which use Vector Smart Objects. I'm afraid that they won't open properly in anything except Adobe Photoshop CS2 or later.
+
+I've locked the position of all the layers, so you cannot accidentally move them out of alignment with the position they must occupy on the map. Feel free to unlock them, if you need to, but be careful not to move them. If they aren't in exactly these positions, they won't correspond to the internal UV Maps, and things won't appear where you expect them to on your Avatar.
+
+To use these files, I suggest that you begin a new file for the clothing/skin you are making, sized to 1024x1024 pixels. Then open the appropriate SL-AV file, and transfer those layers (and only those layers) that you intend to use to your clothing/skin file.
+
+This will serve the dual purpose of keeping the file size reasonable, and safeguarding the original files.
+
+To move layers in Photoshop, just hold down the Shift key and drag the Layer from the Layers Palette onto the other document.
+
+When you begin to use the layers, don't forget that you can change the opacity, as well as the blending mode, so that the UVs, Lines, etc. are visible but not intrusive. Experiment to see what works best for you.
+
+You can also edit the Vector Smart Objects, if you have Adobe Illustrator. To do so, simply unlock the layer, and then double click on the Smart Object thumbnail. Illustrator will automatically launch, if it's not already running, and the file will open.
+
+Make any changes you want, and then Save. Return to Photoshop, and the Smart Object will update. If you realize that it's something you don't want, use the History palette to return to a state before the Smart Object updated. Your changes will vanish, and if you double click again the Smart Object will open unchanged.
+
+I have done my best to make it easy to find your way around the templates.
+
+Each map section has the edge lines for the main (not subdivided) polygons in a different color, so you can easily tell from looking at the maps on your Avatar which map section you need to be working in.
+
+In addition, I have put match lines all around the outside of the maps, where the sections join. These unique colors match on both sides of the corresponding pieces on the map, so you can tell which edges you are working with, and where your continuous lines need to go. There is a mask on this layer, as well. Currently, it's disabled, but if you want to hide the Match Outlines on the inside of the map sections, right click on the mask thumbnail (Control+click on the Mac) and enable it. This will make it easier to see what you are doing, while still being able to clearly see which pieces attach to which.
+
+I have also included colored and black lines, to help you to find your way around the templates. I just find it easier to do it this way than to look for lines at the edges, especially when I'm viewing the Avatar within Second Life, trying to decide where a point is on the actual body.
+
+But sometimes, those edge lines are invaluable; especially around the neck, shoulders, and arms. So I've included a set there.
+
+I have a line for where the skirt joins the Avatar; but be aware that it's not going to be exact, and depending on the avatar's gender and percentage of body fat, it can be way off. The same goes for the match lines on both that line and the skirt. This happens because the skirt isn't actually attached to the Avatar, so the polygons don't flow smoothly from one to the other. Instead, it's simply floating there, and the place that it floats is very different from Avatar to Avatar.
+
+So I recommend that you use those lines as only a very loose guide, and instead look at the skirt on your own Avatar, and figure out which lines on the top match the lines on the bottom that way.
+
+It will never match perfectly, because there is enough room around the top for parallax to come into play, especially with the Female avatar. (The skirt actually dives below the back polys for most male shapes, but not for female shapes.) This is something that we just have to deal with when designing clothing, and there's nothing that can be done about it, since we cannot "fit" the skirt.
+
+Finally, I STRONGLY recommend that you reduce the file size to 512x512 pixels (and think about running the Sharpen filter, or its equivalent) before you upload to Second Life. This will reduce lag in your area, while still maintaining good detail in the images. (Yes, it is really worth it to work large, then reduce the size before upload.)
+
+Now for the legal stuff;
+
+You have my permission to use these templates for your own use, or for things that you intend to sell, in Second Life or from a website. You also have my permission to copy them as often as you need to, and to freely distribute such copies to anyone you want to distribute them to, either free or as a layer (or layers) in something that you have made for sale.
+
+However, I retain the copyright and all rights. Please don't ask for money for the templates as they stand. If I wanted people to have to pay for them, I'd be charging for them myself. Also, please don't pass the work off as your own. That's just rude.
+
+So, that's that!
+
+Hope that you find these useful!
+
+Robin (Sojourner) Wood
+http://www.robinwood.com
+Benten 25,100
+
+
