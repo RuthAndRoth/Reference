@@ -8,7 +8,7 @@ Then put the armature into edit mode, select all, clear bone roll.
 
 Make sure your mesh is clean. Problems here can cause viewer import failures. These failures may be silent, or there may be an error message, which may or may not have anything to do with the actual error. 
 
-There may be more items needed on these lists; these are the ones I know about:  
+There may be more items needed in these lists; these are the ones I know about:  
 
 ### Properties Editor: 
 
@@ -71,4 +71,4 @@ OpenSim/Second Life Mesh Uploader:
   * If your armature is resized (giants, tinies, non-humans): Include joint positions.
   * If you don't want your mesh to use the Appearance sliders at all: Lock scale if joint position defined.
 
-Last updated 2020-11-05 Ada Radius. Please contact me if you see something that needs improvement or has gone out of date! This is a work in progress. 
+Last updated 2020-01-26 Ada Radius. Please contact me if you see something that needs improvement or has gone out of date! This is a work in progress. 
