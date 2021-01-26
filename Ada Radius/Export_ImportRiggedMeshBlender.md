@@ -8,7 +8,7 @@ Then put the armature into edit mode, select all, clear bone roll.
 
 Make sure your mesh is clean. Problems here can cause viewer import failures. These failures may be silent, or there may be an error message, which may or may not have anything to do with the actual error. 
 
-There may be more items needed in these lists; these are the ones I know about:  
+There may be more items needed in these lists; these are the ones I know about as of Blender 2.91:  
 
 ### Properties Editor: 
 
