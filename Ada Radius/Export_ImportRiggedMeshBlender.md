@@ -23,7 +23,7 @@ Modifier Properties:
 Object Data Properties:
   * Delete unused vertex groups
   * Max deform bone vertex groups per mesh: 110
-  * Geometry: Clear data - sculpt mask, custom split normals, etc.
+  * Geometry: Clear data - sculpt mask, custom split normals, unless you know how you need them inworld. 
 
 Material Properties:
   * Delete unused materials from each mesh
@@ -71,4 +71,4 @@ OpenSim/Second Life Mesh Uploader:
   * If your armature is resized (giants, tinies, non-humans): Include joint positions.
   * If you don't want your mesh to use the Appearance sliders at all: Lock scale if joint position defined.
 
-Last updated 2020-01-26 Ada Radius. Please contact me if you see something that needs improvement or has gone out of date! This is a work in progress. 
+Last updated 2020-04-11 Ada Radius. Please contact me if you see something that needs improvement or has gone out of date - this will always be a work in progress. 
