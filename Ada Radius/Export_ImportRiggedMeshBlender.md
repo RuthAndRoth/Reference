@@ -4,11 +4,11 @@ While working in Blender, it's better to orient your armature and mesh to face f
 
 To export from Blender, however, make sure your armature and all its meshes are oriented to face +X - facing to your right in Front Orthographic view. Apply all transformations in Object mode. Check it a couple of times - parented objects follow the parent while rotating, but the rotation needs to be "applied" to the child objects (Object > Apply > All Transforms) as well as the parent armature. If you forget that and rotate a child object before rotating the parent, you may need to fix it. 
 
-Then put the armature into edit mode, select all, clear bone roll.
+Then put the armature into edit mode, select all, set bone roll to Global Z axis.
 
 Make sure your mesh is clean. Problems here can cause viewer import failures. These failures may be silent, or there may be an error message, which may or may not have anything to do with the actual error. 
 
-There may be more items needed in these lists; these are the ones I know about as of Blender 2.91:  
+There may be more items needed in these lists; these are the ones I know about as of Blender 2.92:  
 
 ### Properties Editor: 
 
@@ -66,9 +66,8 @@ Extra tab:
 
 Export Collada to chosen .dae filename
 
-OpenSim/Second Life Mesh Uploader:
-  * Include skin weight
-  * If your armature is resized (giants, tinies, non-humans): Include joint positions.
-  * If you don't want your mesh to use the Appearance sliders at all: Lock scale if joint position defined.
+Tested on Firestorm OS
+    * If your armature is resized (giants, tinies, non-humans): Include joint positions.
+    * If you don't want your mesh to use the Appearance sliders at all: Lock scale if joint position defined.
 
-Last updated 2020-04-11 Ada Radius. Please contact me if you see something that needs improvement or has gone out of date - this will always be a work in progress. 
+Last updated 2021-04-17 Ada Radius. 
