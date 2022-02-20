@@ -1,10 +1,8 @@
-Exporting from Blender to import to OpenSim. This may work for Second Life as well but I haven't tested it.
+Exporting from Blender to import to OpenSim without plugins. This may work for Second Life as well but I haven't tested it.
 
-While working in Blender, it's better to orient your armature and mesh to face front (+Y), while you are in Front Orthographic view. As Blender symmetry defaults along the X axis. If you don't know how to do that yet, search for and watch tutorials on applying rotations and other tranforms to objects, and the relationship between object and mesh. I won't list links here - Blender changes too fast. 
+While working in Blender, it's better to orient your armature and mesh to face front (+Y), while you are in Front Orthographic view, as Blender symmetry defaults along the X axis. If you don't know how to do that yet, search for and watch tutorials on applying rotations and other tranforms to objects, and the relationship between object and mesh. I won't list links here - Blender changes too fast. 
 
 To export from Blender, however, make sure your armature and all its meshes are oriented to face +X - facing to your right in Front Orthographic view. Apply all transformations in Object mode. Check it a couple of times - parented objects follow the parent while rotating, but the rotation needs to be "applied" to the child objects (Object > Apply > All Transforms) as well as the parent armature. If you forget that and rotate a child object before rotating the parent, you may need to fix it. 
-
-Then put the armature into edit mode, select all, set bone roll to Global Z axis.
 
 Make sure your mesh is clean. Problems here can cause viewer import failures. These failures may be silent, or there may be an error message, which may or may not have anything to do with the actual error. 
 
