@@ -29,7 +29,7 @@ Material Properties:
   * Make sure all verts in the mesh are assigned to a material
   * If you made LOD or physics versions, each one must have the same material as the high LOD or physics version. 
   * No more than 8 materials per mesh
-  * No more than 21844 tris per material
+  * No more than 21,844 tris per material
 
 Export > Collada, with the following selections in the export options (Gear icon):
   * Operator Preset: SL+Open Sim rigged 
@@ -68,4 +68,4 @@ Tested on Firestorm OS
     * If your armature is resized (giants, tinies, non-humans): Include joint positions.
     * If you don't want your mesh to use the Appearance sliders at all: Lock scale if joint position defined.
 
-Last updated 2021-04-17 Ada Radius. 
+Last reviewed 2022-06-26 Ada Radius on Blender 2.93.9 LTS. 
