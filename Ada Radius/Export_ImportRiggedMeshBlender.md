@@ -1,10 +1,12 @@
+NOTE: These instructions work, mostly, but there are problems. Best we have right now. 
+
 Exporting from Blender to import to OpenSim without plugins. This may work for Second Life as well but I haven't tested it.
 
 While working in Blender, it's better to orient your armature and mesh to face front (+Y), while you are in Front Orthographic view, as Blender symmetry defaults along the X axis. If you don't know how to do that yet, search for and watch tutorials on applying rotations and other tranforms to objects, and the relationship between object and mesh. I won't list links here - Blender changes too fast. 
 
-To export from Blender, however, make sure your armature and all its meshes are oriented to face +X - facing to your right in Front Orthographic view. Apply all transformations in Object mode. Check it a couple of times - parented objects follow the parent while rotating, but the rotation needs to be "applied" to the child objects (Object > Apply > All Transforms) as well as the parent armature. If you forget that and rotate a child object before rotating the parent, you may need to fix it. 
+To export from Blender, however, make sure your armature and all its meshes are oriented to face +X: facing to your right in Front Orthographic view. Save, Select all, Object > Apply > All Transforms. Check your mesh - parented objects follow the parent while rotating, but in some versions of Blender it can be buggy. 
 
-Make sure your mesh is clean. Problems here can cause viewer import failures. These failures may be silent, or there may be an error message, which may or may not have anything to do with the actual error. 
+Make sure your mesh is clean. Problems here can cause viewer import failures. These failures may be silent, or there may be an error message, which may or may not have anything to do with the actual error. Sometimes opening a new Blend file and appending the mesh can can fix it. 
 
 There may be more items needed in these lists; these are the ones I know about as of Blender 2.92:  
 
@@ -33,7 +35,7 @@ Material Properties:
 
 Export > Collada, with the following selections in the export options (Gear icon):
   * Operator Preset: SL+Open Sim rigged 
-  * and make sure the following checkboxes are ticked
+  * and tick the following checkboxes:
   
 Main tab:
   * Selection Only
@@ -68,4 +70,4 @@ Tested on Firestorm OS
     * If your armature is resized (giants, tinies, non-humans): Include joint positions.
     * If you don't want your mesh to use the Appearance sliders at all: Lock scale if joint position defined.
 
-Last reviewed 2022-06-26 Ada Radius on Blender 2.93.9 LTS. 
+Last reviewed 2022-07-08 Ada Radius on Blender 2.93.9 LTS. 
